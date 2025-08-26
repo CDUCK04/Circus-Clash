@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Clown
   m_EditorClassIdentifier: 
   unitName: Clown
-  maxHealth: 100
-  moveSpeed: 1.5
-  attackDamage: 12
-  attackRate: 0.8
-  attackRange: 1.2
+  maxHealth: 30
+  moveSpeed: 2.3
+  attackDamage: 5
+  attackRate: 0.9
+  attackRange: 1.4
   cost: 25
   popCost: 1
-  ticketReward: 5
+  ticketReward: 6
   isRanged: 0
   projectileSpeed: 0

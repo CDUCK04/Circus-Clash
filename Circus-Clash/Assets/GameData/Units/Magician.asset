@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Magician
   m_EditorClassIdentifier: 
   unitName: Magician
-  maxHealth: 70
-  moveSpeed: 1.4
-  attackDamage: 9
-  attackRate: 1
-  attackRange: 4
-  cost: 35
+  maxHealth: 18
+  moveSpeed: 2.6
+  attackDamage: 3
+  attackRate: 0.5
+  attackRange: 1.4
+  cost: 30
   popCost: 1
-  ticketReward: 6
-  isRanged: 1
-  projectileSpeed: 7
+  ticketReward: 7
+  isRanged: 0
+  projectileSpeed: 0

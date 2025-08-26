@@ -10,11 +10,17 @@ GameObject:
   m_Component:
   - component: {fileID: 1294478863934292559}
   - component: {fileID: 3592228684365744475}
-  - component: {fileID: 2092999771570676135}
   - component: {fileID: 1949121533005620638}
   - component: {fileID: 6175703077887049394}
   - component: {fileID: 6742232184269916106}
-  m_Layer: 0
+  - component: {fileID: 1796646077098051053}
+  - component: {fileID: 6671062072820045955}
+  - component: {fileID: -1231490830072863879}
+  - component: {fileID: 6868953340085257266}
+  - component: {fileID: -2094859919452902555}
+  - component: {fileID: -3813751962356557438}
+  - component: {fileID: 3429218051718037519}
+  m_Layer: 8
   m_Name: Clown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +97,96 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2092999771570676135
+--- !u!114 &1949121533005620638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867860056552999349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d42ba76170d447f78eca2b95592c7cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stats: {fileID: 11400000, guid: 9498e5da5e7b64c43a6ebb901fc49a51, type: 2}
+--- !u!114 &6175703077887049394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867860056552999349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d8f6e7782f4d4873b6eeb56165c661a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onDied:
+    m_PersistentCalls:
+      m_Calls: []
+  onDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &6742232184269916106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867860056552999349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90d9d328f5f2b44f993c25cdb5367d36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 25
+  key: 104
+--- !u!114 &1796646077098051053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867860056552999349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de6da9de04934b9983af80e85f332e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPlayerSide: 1
+--- !u!114 &6671062072820045955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867860056552999349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbc38b5ec2b0e4471858de5a910e0a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sightRange: 20
+  attackRange: 1.2
+  unitLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  debugLogs: 1
+  onlyInFront: 1
+--- !u!114 &-1231490830072863879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867860056552999349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c30b545537204c43b88ea8519317387, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &6868953340085257266
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,9 +230,9 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.0001, y: 0.0001}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1949121533005620638
+--- !u!114 &-2094859919452902555
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,11 +241,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5867860056552999349}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d42ba76170d447f78eca2b95592c7cc, type: 3}
+  m_Script: {fileID: 11500000, guid: c501e804054df4f209da8f5309e0a9d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stats: {fileID: 11400000, guid: 9498e5da5e7b64c43a6ebb901fc49a51, type: 2}
---- !u!114 &6175703077887049394
+--- !u!114 &-3813751962356557438
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,13 +253,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5867860056552999349}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d8f6e7782f4d4873b6eeb56165c661a, type: 3}
+  m_Script: {fileID: 11500000, guid: a9056661c51c94a62bf6e29f15ca5fda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onDied:
+  damageOverride: 0
+  cooldownOverride: 0
+  attackRange: 1.5
+  onHit:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6742232184269916106
+--- !u!114 &3429218051718037519
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,8 +271,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 5867860056552999349}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90d9d328f5f2b44f993c25cdb5367d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b0fc5bbd3f664a509f2a329e8c59fc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 25
-  key: 104
+  flashColor: {r: 0.990566, g: 0.008409648, b: 0, a: 1}
+  flashDuration: 0.08
