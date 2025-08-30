@@ -1,6 +1,7 @@
 using UnityEngine;
-using CircusClash.Troops.Combat;          // UnitHealth, MeleeAttack
-using CircusClash.Troops.Movement; // UnitMover2D
+using CircusClash.Troops.Common;
+using CircusClash.Troops.Combat;
+using CircusClash.Troops.Movement;
 
 namespace CircusClash.Troops.AI
 {
@@ -14,6 +15,8 @@ namespace CircusClash.Troops.AI
         private UnitSensor2D sensor;      // your existing script
         private AutoStopAtRange stopper;   // your existing script (movement authority)
         private UnitMover2D mover;         // read-only checks if needed
+        private RangedAttack ranged;
+        private UnitStats stats;
 
         private Transform target;          // cached target we’re working with
 
@@ -21,10 +24,11 @@ namespace CircusClash.Troops.AI
         {
             health = GetComponent<UnitHealth>();
             melee = GetComponent<MeleeAttack>();
+            ranged = GetComponent<RangedAttack>();
+            stats = GetComponent<UnitStats>();
             sensor = GetComponent<UnitSensor2D>();
             stopper = GetComponent<AutoStopAtRange>();
             mover = GetComponent<UnitMover2D>();
-
             state = State.Advance;
         }
 
@@ -91,9 +95,16 @@ namespace CircusClash.Troops.AI
             }
 
             // In range: try to attack (handles cooldown internally)
-            if (melee != null)
+            bool usedRanged = false;
+            if (ranged != null || (stats != null && stats.IsRanged)) // prefer ranged when present
             {
-                melee.TryAttack(target);
+                int facing = transform.localScale.x >= 0 ? +1 : -1;
+                usedRanged = ranged != null && ranged.TryShoot(target, facing > 0);
+            }
+
+            if (!usedRanged && melee != null)
+            {
+                melee.TryAttack(target); // fallback to melee
             }
         }
 

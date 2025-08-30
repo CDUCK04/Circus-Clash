@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: 9817dcfc7eb569246b3c0117409ff51a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4059242336641134602
+    second: blueMagician_Death_SpriteSheet_0
+  - first:
+      213: -1257750397190808081
+    second: blueMagician_Death_SpriteSheet_1
+  - first:
+      213: -8493640377279648175
+    second: blueMagician_Death_SpriteSheet_2
+  - first:
+      213: 8597758010974024653
+    second: blueMagician_Death_SpriteSheet_3
+  - first:
+      213: 8387119815992729170
+    second: blueMagician_Death_SpriteSheet_4
+  - first:
+      213: 1844604927626957015
+    second: blueMagician_Death_SpriteSheet_5
+  - first:
+      213: 310067929185892156
+    second: blueMagician_Death_SpriteSheet_6
+  - first:
+      213: -3778347182998268943
+    second: blueMagician_Death_SpriteSheet_7
+  - first:
+      213: -1553214195947867407
+    second: blueMagician_Death_SpriteSheet_8
+  - first:
+      213: 8646599311942306129
+    second: blueMagician_Death_SpriteSheet_9
+  - first:
+      213: -143543384778345568
+    second: blueMagician_Death_SpriteSheet_10
+  - first:
+      213: -112851043696237904
+    second: blueMagician_Death_SpriteSheet_11
+  - first:
+      213: -3606698305895280434
+    second: blueMagician_Death_SpriteSheet_12
+  - first:
+      213: 380027081602959652
+    second: blueMagician_Death_SpriteSheet_13
+  - first:
+      213: -7725338976333588055
+    second: blueMagician_Death_SpriteSheet_14
+  - first:
+      213: -1846065018213757849
+    second: blueMagician_Death_SpriteSheet_15
+  - first:
+      213: 7529179813126875612
+    second: blueMagician_Death_SpriteSheet_16
+  - first:
+      213: 1540463648101312138
+    second: blueMagician_Death_SpriteSheet_17
+  - first:
+      213: 6249450883979979251
+    second: blueMagician_Death_SpriteSheet_18
+  - first:
+      213: 4286852960550749846
+    second: blueMagician_Death_SpriteSheet_19
+  - first:
+      213: 1618152191330043860
+    second: blueMagician_Death_SpriteSheet_20
+  - first:
+      213: -6043113235531612726
+    second: blueMagician_Death_SpriteSheet_21
+  - first:
+      213: -580321038212270169
+    second: blueMagician_Death_SpriteSheet_22
+  - first:
+      213: -2481114959161604417
+    second: blueMagician_Death_SpriteSheet_23
+  - first:
+      213: 6500135941427431679
+    second: blueMagician_Death_SpriteSheet_24
+  - first:
+      213: 7410186818826505584
+    second: blueMagician_Death_SpriteSheet_25
+  - first:
+      213: 1850957383085419131
+    second: blueMagician_Death_SpriteSheet_26
+  - first:
+      213: -3252759853380850986
+    second: blueMagician_Death_SpriteSheet_27
+  - first:
+      213: 1887659690338299876
+    second: blueMagician_Death_SpriteSheet_28
+  - first:
+      213: 3735351309932827584
+    second: blueMagician_Death_SpriteSheet_29
+  - first:
+      213: 8116359692806831210
+    second: blueMagician_Death_SpriteSheet_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 158
+        width: 352
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00b8bcf563555830800000000000000
+      internalID: 4059242336641134602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 140
+        width: 380
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fedd5577da29b8ee0800000000000000
+      internalID: -1257750397190808081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 139
+        width: 368
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ee45ef317802a80800000000000000
+      internalID: -8493640377279648175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 152
+        width: 380
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc330ecab5f515770800000000000000
+      internalID: 8597758010974024653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 4134
+        y: 124
+        width: 400
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ed2e82909056470800000000000000
+      internalID: 8387119815992729170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 5101
+        y: 102
+        width: 484
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0d326986a599910800000000000000
+      internalID: 1844604927626957015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 6069
+        y: 86
+        width: 599
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37bd5783259d4400800000000000000
+      internalID: 310067929185892156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 7037
+        y: 78
+        width: 640
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f35a4f614d909bc0800000000000000
+      internalID: -3778347182998268943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 7995
+        y: 78
+        width: 632
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2fe660befd17ae0800000000000000
+      internalID: -1553214195947867407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 8962
+        y: 62
+        width: 627
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15945773344eef770800000000000000
+      internalID: 8646599311942306129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 9911
+        y: 38
+        width: 641
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3fd645d08020ef0800000000000000
+      internalID: -143543384778345568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 10871
+        y: 31
+        width: 642
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b224fbd2921f6ef0800000000000000
+      internalID: -112851043696237904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 11831
+        y: 40
+        width: 642
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0db19fffe62fdc0800000000000000
+      internalID: -3606698305895280434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 12791
+        y: 59
+        width: 642
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42909f30e90264500800000000000000
+      internalID: 380027081602959652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 13751
+        y: 49
+        width: 642
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a91822b1251ac490800000000000000
+      internalID: -7725338976333588055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 14711
+        y: 39
+        width: 642
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c081595a57166e0800000000000000
+      internalID: -1846065018213757849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 15671
+        y: 28
+        width: 642
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9287316250d7860800000000000000
+      internalID: 7529179813126875612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 16631
+        y: 77
+        width: 642
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a862b76b683d06510800000000000000
+      internalID: 1540463648101312138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 17591
+        y: 77
+        width: 642
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9a0ecc7728ab650800000000000000
+      internalID: 6249450883979979251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 18551
+        y: 77
+        width: 642
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69685fd0e06fd7b30800000000000000
+      internalID: 4286852960550749846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 19511
+        y: 77
+        width: 642
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d74fbc38d4d47610800000000000000
+      internalID: 1618152191330043860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 20471
+        y: 77
+        width: 642
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd3da2b78c822ca0800000000000000
+      internalID: -6043113235531612726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 21431
+        y: 77
+        width: 642
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7fba5271942f7f0800000000000000
+      internalID: -580321038212270169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 22391
+        y: 77
+        width: 642
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6c344171f419dd0800000000000000
+      internalID: -2481114959161604417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 16831
+        y: 27
+        width: 321
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff80884133f153a50800000000000000
+      internalID: 6500135941427431679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 17785
+        y: 26
+        width: 322
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d8f6f96a546d660800000000000000
+      internalID: 7410186818826505584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 18740
+        y: 19
+        width: 322
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a6131eeebefa910800000000000000
+      internalID: 1850957383085419131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 19700
+        y: 19
+        width: 322
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da259fa520ebd2d0800000000000000
+      internalID: -3252759853380850986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 20660
+        y: 19
+        width: 322
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef2073bc70523a10800000000000000
+      internalID: 1887659690338299876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 21620
+        y: 19
+        width: 322
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c316d3c932a6d330800000000000000
+      internalID: 3735351309932827584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Death_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 22580
+        y: 19
+        width: 322
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cbc07632a13a070800000000000000
+      internalID: 8116359692806831210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blueMagician_Death_SpriteSheet_0: 4059242336641134602
+      blueMagician_Death_SpriteSheet_1: -1257750397190808081
+      blueMagician_Death_SpriteSheet_10: -143543384778345568
+      blueMagician_Death_SpriteSheet_11: -112851043696237904
+      blueMagician_Death_SpriteSheet_12: -3606698305895280434
+      blueMagician_Death_SpriteSheet_13: 380027081602959652
+      blueMagician_Death_SpriteSheet_14: -7725338976333588055
+      blueMagician_Death_SpriteSheet_15: -1846065018213757849
+      blueMagician_Death_SpriteSheet_16: 7529179813126875612
+      blueMagician_Death_SpriteSheet_17: 1540463648101312138
+      blueMagician_Death_SpriteSheet_18: 6249450883979979251
+      blueMagician_Death_SpriteSheet_19: 4286852960550749846
+      blueMagician_Death_SpriteSheet_2: -8493640377279648175
+      blueMagician_Death_SpriteSheet_20: 1618152191330043860
+      blueMagician_Death_SpriteSheet_21: -6043113235531612726
+      blueMagician_Death_SpriteSheet_22: -580321038212270169
+      blueMagician_Death_SpriteSheet_23: -2481114959161604417
+      blueMagician_Death_SpriteSheet_24: 6500135941427431679
+      blueMagician_Death_SpriteSheet_25: 7410186818826505584
+      blueMagician_Death_SpriteSheet_26: 1850957383085419131
+      blueMagician_Death_SpriteSheet_27: -3252759853380850986
+      blueMagician_Death_SpriteSheet_28: 1887659690338299876
+      blueMagician_Death_SpriteSheet_29: 3735351309932827584
+      blueMagician_Death_SpriteSheet_3: 8597758010974024653
+      blueMagician_Death_SpriteSheet_30: 8116359692806831210
+      blueMagician_Death_SpriteSheet_4: 8387119815992729170
+      blueMagician_Death_SpriteSheet_5: 1844604927626957015
+      blueMagician_Death_SpriteSheet_6: 310067929185892156
+      blueMagician_Death_SpriteSheet_7: -3778347182998268943
+      blueMagician_Death_SpriteSheet_8: -1553214195947867407
+      blueMagician_Death_SpriteSheet_9: 8646599311942306129
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: e26f2c044c64cbe4283a0f0a8673046f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1327886981857956042
+    second: redMagician_Attack_SpriteSheet_0
+  - first:
+      213: 5226053013653523574
+    second: redMagician_Attack_SpriteSheet_1
+  - first:
+      213: -1890424270117026576
+    second: redMagician_Attack_SpriteSheet_2
+  - first:
+      213: -9192661901123563699
+    second: redMagician_Attack_SpriteSheet_3
+  - first:
+      213: -2862120281947402562
+    second: redMagician_Attack_SpriteSheet_4
+  - first:
+      213: -3687034855503788139
+    second: redMagician_Attack_SpriteSheet_5
+  - first:
+      213: -8476149581033968566
+    second: redMagician_Attack_SpriteSheet_6
+  - first:
+      213: -5458726160547766810
+    second: redMagician_Attack_SpriteSheet_7
+  - first:
+      213: -5213301119350506042
+    second: redMagician_Attack_SpriteSheet_8
+  - first:
+      213: -8957820834751260649
+    second: redMagician_Attack_SpriteSheet_9
+  - first:
+      213: -194578390099624088
+    second: redMagician_Attack_SpriteSheet_10
+  - first:
+      213: 7807825453468029758
+    second: redMagician_Attack_SpriteSheet_11
+  - first:
+      213: -7155077165092564211
+    second: redMagician_Attack_SpriteSheet_12
+  - first:
+      213: 9086290096573286096
+    second: redMagician_Attack_SpriteSheet_13
+  - first:
+      213: 155634279955799754
+    second: redMagician_Attack_SpriteSheet_14
+  - first:
+      213: 3142551490337370309
+    second: redMagician_Attack_SpriteSheet_15
+  - first:
+      213: -7477504786307253376
+    second: redMagician_Attack_SpriteSheet_16
+  - first:
+      213: 462106735277225470
+    second: redMagician_Attack_SpriteSheet_17
+  - first:
+      213: -760044651594585474
+    second: redMagician_Attack_SpriteSheet_18
+  - first:
+      213: 7640050239884599975
+    second: redMagician_Attack_SpriteSheet_19
+  - first:
+      213: -1464194488241114213
+    second: redMagician_Attack_SpriteSheet_20
+  - first:
+      213: -7688192086879422220
+    second: redMagician_Attack_SpriteSheet_21
+  - first:
+      213: -5434477684487834910
+    second: redMagician_Attack_SpriteSheet_22
+  - first:
+      213: 9005039056817852204
+    second: redMagician_Attack_SpriteSheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 158
+        width: 352
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0528fac2a9d6210800000000000000
+      internalID: 1327886981857956042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 155
+        width: 400
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c8d20f68ba68840800000000000000
+      internalID: 5226053013653523574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 158
+        width: 439
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4c5e8642dd3c5e0800000000000000
+      internalID: -1890424270117026576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 158
+        width: 486
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f434ba4ba1d6080800000000000000
+      internalID: -9192661901123563699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 4142
+        y: 158
+        width: 522
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe851a84c4b748d0800000000000000
+      internalID: -2862120281947402562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 5115
+        y: 158
+        width: 588
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597863b655505dcc0800000000000000
+      internalID: -3687034855503788139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 6061
+        y: 158
+        width: 545
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ce4675ddaae5a80800000000000000
+      internalID: -8476149581033968566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 6996
+        y: 158
+        width: 472
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed1b628a75be34b0800000000000000
+      internalID: -5458726160547766810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 7945
+        y: 157
+        width: 418
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd77f1d042a6a7b0800000000000000
+      internalID: -5213301119350506042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 8929
+        y: 152
+        width: 394
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718de0f496d6fa380800000000000000
+      internalID: -8957820834751260649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 9844
+        y: 146
+        width: 436
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ff4213cf7bc4df0800000000000000
+      internalID: -194578390099624088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 10780
+        y: 136
+        width: 454
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33173ed1e7fa5c60800000000000000
+      internalID: 7807825453468029758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 11757
+        y: 143
+        width: 442
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0316224a3f04bc90800000000000000
+      internalID: -7155077165092564211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 12734
+        y: 151
+        width: 428
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6866c93bcf81e70800000000000000
+      internalID: 9086290096573286096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 13715
+        y: 158
+        width: 408
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace93a39d8ce82200800000000000000
+      internalID: 155634279955799754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 14675
+        y: 158
+        width: 408
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0fee53ee59c9b20800000000000000
+      internalID: 3142551490337370309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 15635
+        y: 158
+        width: 408
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b7fdda3019a3890800000000000000
+      internalID: -7477504786307253376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 16595
+        y: 158
+        width: 408
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5b38c90abb96600800000000000000
+      internalID: 462106735277225470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 17555
+        y: 158
+        width: 408
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ae4409a67c375f0800000000000000
+      internalID: -760044651594585474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 18515
+        y: 158
+        width: 408
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2a576e639e60a60800000000000000
+      internalID: 7640050239884599975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 19475
+        y: 158
+        width: 408
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93bd4eded22eabe0800000000000000
+      internalID: -1464194488241114213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 20435
+        y: 158
+        width: 408
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f83590e70e0e4590800000000000000
+      internalID: -7688192086879422220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 21395
+        y: 158
+        width: 408
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2b05cc65bd494b0800000000000000
+      internalID: -5434477684487834910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Attack_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 22355
+        y: 158
+        width: 408
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f852abf4358fc70800000000000000
+      internalID: 9005039056817852204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      redMagician_Attack_SpriteSheet_0: 1327886981857956042
+      redMagician_Attack_SpriteSheet_1: 5226053013653523574
+      redMagician_Attack_SpriteSheet_10: -194578390099624088
+      redMagician_Attack_SpriteSheet_11: 7807825453468029758
+      redMagician_Attack_SpriteSheet_12: -7155077165092564211
+      redMagician_Attack_SpriteSheet_13: 9086290096573286096
+      redMagician_Attack_SpriteSheet_14: 155634279955799754
+      redMagician_Attack_SpriteSheet_15: 3142551490337370309
+      redMagician_Attack_SpriteSheet_16: -7477504786307253376
+      redMagician_Attack_SpriteSheet_17: 462106735277225470
+      redMagician_Attack_SpriteSheet_18: -760044651594585474
+      redMagician_Attack_SpriteSheet_19: 7640050239884599975
+      redMagician_Attack_SpriteSheet_2: -1890424270117026576
+      redMagician_Attack_SpriteSheet_20: -1464194488241114213
+      redMagician_Attack_SpriteSheet_21: -7688192086879422220
+      redMagician_Attack_SpriteSheet_22: -5434477684487834910
+      redMagician_Attack_SpriteSheet_23: 9005039056817852204
+      redMagician_Attack_SpriteSheet_3: -9192661901123563699
+      redMagician_Attack_SpriteSheet_4: -2862120281947402562
+      redMagician_Attack_SpriteSheet_5: -3687034855503788139
+      redMagician_Attack_SpriteSheet_6: -8476149581033968566
+      redMagician_Attack_SpriteSheet_7: -5458726160547766810
+      redMagician_Attack_SpriteSheet_8: -5213301119350506042
+      redMagician_Attack_SpriteSheet_9: -8957820834751260649
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

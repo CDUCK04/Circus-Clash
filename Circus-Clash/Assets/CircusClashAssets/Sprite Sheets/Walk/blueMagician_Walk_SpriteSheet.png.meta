@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: c7dca879703883848ac05ca30e030ca6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4517926083852941513
+    second: blueMagician_Walk_SpriteSheet_0
+  - first:
+      213: 4244665864755172917
+    second: blueMagician_Walk_SpriteSheet_1
+  - first:
+      213: -5575856694719993656
+    second: blueMagician_Walk_SpriteSheet_2
+  - first:
+      213: -942427942791818470
+    second: blueMagician_Walk_SpriteSheet_3
+  - first:
+      213: 336432678044920993
+    second: blueMagician_Walk_SpriteSheet_4
+  - first:
+      213: 3095361658716218613
+    second: blueMagician_Walk_SpriteSheet_5
+  - first:
+      213: -8966985411129678390
+    second: blueMagician_Walk_SpriteSheet_6
+  - first:
+      213: 3754717802495681911
+    second: blueMagician_Walk_SpriteSheet_7
+  - first:
+      213: -8973649273182923957
+    second: blueMagician_Walk_SpriteSheet_8
+  - first:
+      213: -8839598605400695480
+    second: blueMagician_Walk_SpriteSheet_9
+  - first:
+      213: 1171932426045925924
+    second: blueMagician_Walk_SpriteSheet_10
+  - first:
+      213: -8266181197939138307
+    second: blueMagician_Walk_SpriteSheet_11
+  - first:
+      213: 8096261985797494701
+    second: blueMagician_Walk_SpriteSheet_12
+  - first:
+      213: -6588861654458826
+    second: blueMagician_Walk_SpriteSheet_13
+  - first:
+      213: 7310058091705383411
+    second: blueMagician_Walk_SpriteSheet_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blueMagician_Walk_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 145
+        width: 406
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8b68516d5e2be30800000000000000
+      internalID: 4517926083852941513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Walk_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 148
+        width: 392
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53655f26d1518ea30800000000000000
+      internalID: 4244665864755172917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Walk_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 154
+        width: 374
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c82bb8d0e39e92b0800000000000000
+      internalID: -5575856694719993656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Walk_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 162
+        width: 350
+        height: 631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13dd7b77c2dbe2f0800000000000000
+      internalID: -942427942791818470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Walk_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 4159
+        y: 171
+        width: 362
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac63b9fcbf3ba400800000000000000
+      internalID: 336432678044920993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Walk_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 5101
+        y: 173
+        width: 386
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4e427570fe4fa20800000000000000
+      internalID: 3095361658716218613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Walk_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 6044
+        y: 168
+        width: 418
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac56187174ede8380800000000000000
+      internalID: -8966985411129678390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Walk_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 6989
+        y: 177
+        width: 446
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7752791b2ff6b1430800000000000000
+      internalID: 3754717802495681911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Walk_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 7962
+        y: 166
+        width: 422
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b435dfcc781377380800000000000000
+      internalID: -8973649273182923957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Walk_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 8937
+        y: 163
+        width: 394
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d9d0017ef635580800000000000000
+      internalID: -8839598605400695480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Walk_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 9912
+        y: 164
+        width: 369
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42aaa33155a834010800000000000000
+      internalID: 1171932426045925924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Walk_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 10889
+        y: 166
+        width: 352
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df023df1fff984d80800000000000000
+      internalID: -8266181197939138307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Walk_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 11840
+        y: 163
+        width: 360
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da755f75163bb5070800000000000000
+      internalID: 8096261985797494701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Walk_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 12781
+        y: 155
+        width: 379
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e9c99177798eff0800000000000000
+      internalID: -6588861654458826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueMagician_Walk_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 13725
+        y: 148
+        width: 394
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9b193aa1b827560800000000000000
+      internalID: 7310058091705383411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blueMagician_Walk_SpriteSheet_0: 4517926083852941513
+      blueMagician_Walk_SpriteSheet_1: 4244665864755172917
+      blueMagician_Walk_SpriteSheet_10: 1171932426045925924
+      blueMagician_Walk_SpriteSheet_11: -8266181197939138307
+      blueMagician_Walk_SpriteSheet_12: 8096261985797494701
+      blueMagician_Walk_SpriteSheet_13: -6588861654458826
+      blueMagician_Walk_SpriteSheet_14: 7310058091705383411
+      blueMagician_Walk_SpriteSheet_2: -5575856694719993656
+      blueMagician_Walk_SpriteSheet_3: -942427942791818470
+      blueMagician_Walk_SpriteSheet_4: 336432678044920993
+      blueMagician_Walk_SpriteSheet_5: 3095361658716218613
+      blueMagician_Walk_SpriteSheet_6: -8966985411129678390
+      blueMagician_Walk_SpriteSheet_7: 3754717802495681911
+      blueMagician_Walk_SpriteSheet_8: -8973649273182923957
+      blueMagician_Walk_SpriteSheet_9: -8839598605400695480
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 7fd9d8bff4e28094ea522d1c6ca6db05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3858610716556327376
+    second: blueClown_Death_SpriteSheet_0
+  - first:
+      213: 665184587822178165
+    second: blueClown_Death_SpriteSheet_1
+  - first:
+      213: 7618737376883287022
+    second: blueClown_Death_SpriteSheet_2
+  - first:
+      213: 3863199727183577009
+    second: blueClown_Death_SpriteSheet_3
+  - first:
+      213: 4942857532439560301
+    second: blueClown_Death_SpriteSheet_4
+  - first:
+      213: 646355405512102744
+    second: blueClown_Death_SpriteSheet_5
+  - first:
+      213: 2085620702002838185
+    second: blueClown_Death_SpriteSheet_6
+  - first:
+      213: -611291036759563101
+    second: blueClown_Death_SpriteSheet_7
+  - first:
+      213: 2448010049855950585
+    second: blueClown_Death_SpriteSheet_8
+  - first:
+      213: 7796162939026449040
+    second: blueClown_Death_SpriteSheet_9
+  - first:
+      213: 8315537613130638658
+    second: blueClown_Death_SpriteSheet_10
+  - first:
+      213: 2530984613911803667
+    second: blueClown_Death_SpriteSheet_11
+  - first:
+      213: 5799783230355236483
+    second: blueClown_Death_SpriteSheet_12
+  - first:
+      213: -2504743366855348614
+    second: blueClown_Death_SpriteSheet_13
+  - first:
+      213: -8315931464960929739
+    second: blueClown_Death_SpriteSheet_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blueClown_Death_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 161
+        width: 321
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9fadeb00a8c8530800000000000000
+      internalID: 3858610716556327376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Death_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 145
+        width: 348
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f943bbbd53b3900800000000000000
+      internalID: 665184587822178165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Death_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 141
+        width: 383
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3ae1a47413bb960800000000000000
+      internalID: 7618737376883287022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Death_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 3194
+        y: 152
+        width: 421
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfb92b0fa7dc9530800000000000000
+      internalID: 3863199727183577009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Death_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 4166
+        y: 175
+        width: 440
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d608c64ccbe889440800000000000000
+      internalID: 4942857532439560301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Death_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 5133
+        y: 177
+        width: 496
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853d33811d058f800800000000000000
+      internalID: 646355405512102744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Death_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 6101
+        y: 178
+        width: 517
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa74177afc91fc10800000000000000
+      internalID: 2085620702002838185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Death_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 7070
+        y: 179
+        width: 502
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4e0937a024487f0800000000000000
+      internalID: -611291036759563101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Death_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 8032
+        y: 133
+        width: 488
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe00449b2419f120800000000000000
+      internalID: 2448010049855950585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Death_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 8997
+        y: 114
+        width: 478
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092acbf13e8813c60800000000000000
+      internalID: 7796162939026449040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Death_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 9957
+        y: 99
+        width: 475
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2452d0bc669b66370800000000000000
+      internalID: 8315537613130638658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Death_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 10917
+        y: 107
+        width: 477
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317313cb81ddf1320800000000000000
+      internalID: 2530984613911803667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Death_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 11877
+        y: 116
+        width: 479
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38667939e18fc7050800000000000000
+      internalID: 5799783230355236483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Death_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 12837
+        y: 127
+        width: 482
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e2215bd2d5d3dd0800000000000000
+      internalID: -2504743366855348614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Death_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 13797
+        y: 127
+        width: 482
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530928e6460e79c80800000000000000
+      internalID: -8315931464960929739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blueClown_Death_SpriteSheet_0: 3858610716556327376
+      blueClown_Death_SpriteSheet_1: 665184587822178165
+      blueClown_Death_SpriteSheet_10: 8315537613130638658
+      blueClown_Death_SpriteSheet_11: 2530984613911803667
+      blueClown_Death_SpriteSheet_12: 5799783230355236483
+      blueClown_Death_SpriteSheet_13: -2504743366855348614
+      blueClown_Death_SpriteSheet_14: -8315931464960929739
+      blueClown_Death_SpriteSheet_2: 7618737376883287022
+      blueClown_Death_SpriteSheet_3: 3863199727183577009
+      blueClown_Death_SpriteSheet_4: 4942857532439560301
+      blueClown_Death_SpriteSheet_5: 646355405512102744
+      blueClown_Death_SpriteSheet_6: 2085620702002838185
+      blueClown_Death_SpriteSheet_7: -611291036759563101
+      blueClown_Death_SpriteSheet_8: 2448010049855950585
+      blueClown_Death_SpriteSheet_9: 7796162939026449040
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

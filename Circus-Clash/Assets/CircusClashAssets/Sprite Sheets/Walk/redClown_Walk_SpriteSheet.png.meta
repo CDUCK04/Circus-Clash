@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 5fe2d41e1ace62e4884df52ff3989b9d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5802456903758880039
+    second: redClown_Walk_SpriteSheet_0
+  - first:
+      213: -260793414091505157
+    second: redClown_Walk_SpriteSheet_1
+  - first:
+      213: -3687244054700634910
+    second: redClown_Walk_SpriteSheet_2
+  - first:
+      213: 4954103759550609680
+    second: redClown_Walk_SpriteSheet_3
+  - first:
+      213: 4305264792475395021
+    second: redClown_Walk_SpriteSheet_4
+  - first:
+      213: -7805703789422037258
+    second: redClown_Walk_SpriteSheet_5
+  - first:
+      213: 5680449882971296567
+    second: redClown_Walk_SpriteSheet_6
+  - first:
+      213: 3880854190170996070
+    second: redClown_Walk_SpriteSheet_7
+  - first:
+      213: -2360342245837545986
+    second: redClown_Walk_SpriteSheet_8
+  - first:
+      213: -8037737974962591115
+    second: redClown_Walk_SpriteSheet_9
+  - first:
+      213: 1412124829346847723
+    second: redClown_Walk_SpriteSheet_10
+  - first:
+      213: 5878605973639702771
+    second: redClown_Walk_SpriteSheet_11
+  - first:
+      213: -6627154558538474263
+    second: redClown_Walk_SpriteSheet_12
+  - first:
+      213: 6781184365659040269
+    second: redClown_Walk_SpriteSheet_13
+  - first:
+      213: 6286767395725006071
+    second: redClown_Walk_SpriteSheet_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: redClown_Walk_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 152
+        width: 314
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d260f25038897fa0800000000000000
+      internalID: -5802456903758880039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Walk_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 155
+        width: 306
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1805985c9716cf0800000000000000
+      internalID: -260793414091505157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Walk_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 160
+        width: 297
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ecc56f611744dcc0800000000000000
+      internalID: -3687244054700634910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Walk_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 3209
+        y: 166
+        width: 309
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019f0701f1380c440800000000000000
+      internalID: 4954103759550609680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Walk_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 4150
+        y: 173
+        width: 343
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3ed7bb48f5fbb30800000000000000
+      internalID: 4305264792475395021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Walk_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 5091
+        y: 171
+        width: 389
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6349982c19ca390800000000000000
+      internalID: -7805703789422037258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Walk_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 6036
+        y: 161
+        width: 426
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733d9ee721305de40800000000000000
+      internalID: 5680449882971296567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Walk_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 6983
+        y: 172
+        width: 455
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d7a3603509bd530800000000000000
+      internalID: 3880854190170996070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Walk_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 7956
+        y: 169
+        width: 429
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd5188ab316e3fd0800000000000000
+      internalID: -2360342245837545986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Walk_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 8932
+        y: 167
+        width: 394
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57aefa4c5e7347090800000000000000
+      internalID: -8037737974962591115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Walk_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 9910
+        y: 167
+        width: 354
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb5abfec00e89310800000000000000
+      internalID: 1412124829346847723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Walk_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 10889
+        y: 169
+        width: 310
+        height: 595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8a841acf0059150800000000000000
+      internalID: 5878605973639702771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Walk_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 11861
+        y: 159
+        width: 297
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec14ba8a0e9704a0800000000000000
+      internalID: -6627154558538474263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Walk_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 12821
+        y: 160
+        width: 297
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a2a87904b9b1e50800000000000000
+      internalID: 6781184365659040269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Walk_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 13774
+        y: 155
+        width: 304
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f452bf33a51f3750800000000000000
+      internalID: 6286767395725006071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      redClown_Walk_SpriteSheet_0: -5802456903758880039
+      redClown_Walk_SpriteSheet_1: -260793414091505157
+      redClown_Walk_SpriteSheet_10: 1412124829346847723
+      redClown_Walk_SpriteSheet_11: 5878605973639702771
+      redClown_Walk_SpriteSheet_12: -6627154558538474263
+      redClown_Walk_SpriteSheet_13: 6781184365659040269
+      redClown_Walk_SpriteSheet_14: 6286767395725006071
+      redClown_Walk_SpriteSheet_2: -3687244054700634910
+      redClown_Walk_SpriteSheet_3: 4954103759550609680
+      redClown_Walk_SpriteSheet_4: 4305264792475395021
+      redClown_Walk_SpriteSheet_5: -7805703789422037258
+      redClown_Walk_SpriteSheet_6: 5680449882971296567
+      redClown_Walk_SpriteSheet_7: 3880854190170996070
+      redClown_Walk_SpriteSheet_8: -2360342245837545986
+      redClown_Walk_SpriteSheet_9: -8037737974962591115
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

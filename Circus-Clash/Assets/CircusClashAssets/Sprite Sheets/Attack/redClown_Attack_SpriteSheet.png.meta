@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 60cb55a89e2358640908105f2a199bbf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9198815759303714986
+    second: redClown_Attack_SpriteSheet_0
+  - first:
+      213: 6220894660599167989
+    second: redClown_Attack_SpriteSheet_1
+  - first:
+      213: -239278882313215609
+    second: redClown_Attack_SpriteSheet_2
+  - first:
+      213: 1396892555633426210
+    second: redClown_Attack_SpriteSheet_3
+  - first:
+      213: 2062526116873493469
+    second: redClown_Attack_SpriteSheet_4
+  - first:
+      213: -6202618199799599590
+    second: redClown_Attack_SpriteSheet_5
+  - first:
+      213: -8448683291928025664
+    second: redClown_Attack_SpriteSheet_6
+  - first:
+      213: 8329199943880873736
+    second: redClown_Attack_SpriteSheet_7
+  - first:
+      213: -69748954615214311
+    second: redClown_Attack_SpriteSheet_8
+  - first:
+      213: -6461362415490825890
+    second: redClown_Attack_SpriteSheet_9
+  - first:
+      213: 4914735997646833275
+    second: redClown_Attack_SpriteSheet_10
+  - first:
+      213: -16112498783438121
+    second: redClown_Attack_SpriteSheet_11
+  - first:
+      213: 2405350635675366540
+    second: redClown_Attack_SpriteSheet_12
+  - first:
+      213: 5910558697794835178
+    second: redClown_Attack_SpriteSheet_13
+  - first:
+      213: -8921367042552163999
+    second: redClown_Attack_SpriteSheet_14
+  - first:
+      213: -6544587212126036358
+    second: redClown_Attack_SpriteSheet_15
+  - first:
+      213: 1360476377565990712
+    second: redClown_Attack_SpriteSheet_16
+  - first:
+      213: -7726338268917847908
+    second: redClown_Attack_SpriteSheet_17
+  - first:
+      213: -1756452476000287681
+    second: redClown_Attack_SpriteSheet_18
+  - first:
+      213: -6882152428417090781
+    second: redClown_Attack_SpriteSheet_19
+  - first:
+      213: -8924672196246523755
+    second: redClown_Attack_SpriteSheet_20
+  - first:
+      213: 8360384939549237127
+    second: redClown_Attack_SpriteSheet_21
+  - first:
+      213: -4120063572662923941
+    second: redClown_Attack_SpriteSheet_22
+  - first:
+      213: -4175936560302613642
+    second: redClown_Attack_SpriteSheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 161
+        width: 310
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa820971232c8af70800000000000000
+      internalID: 9198815759303714986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 161
+        width: 419
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb332eebbe055650800000000000000
+      internalID: 6220894660599167989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 161
+        width: 458
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781e771df19edacf0800000000000000
+      internalID: -239278882313215609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 161
+        width: 443
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ffae7d062c26310800000000000000
+      internalID: 1396892555633426210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 4206
+        y: 161
+        width: 471
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbd53853909f9c10800000000000000
+      internalID: 2062526116873493469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 5166
+        y: 161
+        width: 496
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e62933c9fdbe9a0800000000000000
+      internalID: -6202618199799599590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 6126
+        y: 161
+        width: 424
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c52adc1f4f30ca80800000000000000
+      internalID: -8448683291928025664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 7086
+        y: 161
+        width: 331
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807193e0833479370800000000000000
+      internalID: 8329199943880873736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 7945
+        y: 161
+        width: 337
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f84b002b3380ff0800000000000000
+      internalID: -69748954615214311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 8831
+        y: 161
+        width: 401
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e510c9bed11a456a0800000000000000
+      internalID: -6461362415490825890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 9784
+        y: 161
+        width: 408
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b768098b956a43440800000000000000
+      internalID: 4914735997646833275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 10691
+        y: 161
+        width: 490
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dab19984c1c6cff0800000000000000
+      internalID: -16112498783438121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 11716
+        y: 161
+        width: 405
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84b0b7b8a5816120800000000000000
+      internalID: 2405350635675366540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 12739
+        y: 161
+        width: 333
+        height: 587
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae21826f1d5860250800000000000000
+      internalID: 5910558697794835178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 13736
+        y: 161
+        width: 322
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1611dc531ffe03480800000000000000
+      internalID: -8921367042552163999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 14706
+        y: 161
+        width: 323
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ed9a3fa94fc25a0800000000000000
+      internalID: -6544587212126036358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 15676
+        y: 161
+        width: 324
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f812aae0261e210800000000000000
+      internalID: 1360476377565990712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 16636
+        y: 161
+        width: 324
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9825a2c74886c490800000000000000
+      internalID: -7726338268917847908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 17596
+        y: 161
+        width: 324
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34c52777c3df97e0800000000000000
+      internalID: -1756452476000287681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 18556
+        y: 161
+        width: 324
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b7b1e54dead70a0800000000000000
+      internalID: -6882152428417090781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 19516
+        y: 161
+        width: 324
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590bbe52ce1352480800000000000000
+      internalID: -8924672196246523755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 20476
+        y: 161
+        width: 324
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f9b5baecd060470800000000000000
+      internalID: 8360384939549237127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 21436
+        y: 161
+        width: 324
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d466b720892d6c0800000000000000
+      internalID: -4120063572662923941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Attack_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 22396
+        y: 161
+        width: 324
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b989ec2d71c06c0800000000000000
+      internalID: -4175936560302613642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      redClown_Attack_SpriteSheet_0: 9198815759303714986
+      redClown_Attack_SpriteSheet_1: 6220894660599167989
+      redClown_Attack_SpriteSheet_10: 4914735997646833275
+      redClown_Attack_SpriteSheet_11: -16112498783438121
+      redClown_Attack_SpriteSheet_12: 2405350635675366540
+      redClown_Attack_SpriteSheet_13: 5910558697794835178
+      redClown_Attack_SpriteSheet_14: -8921367042552163999
+      redClown_Attack_SpriteSheet_15: -6544587212126036358
+      redClown_Attack_SpriteSheet_16: 1360476377565990712
+      redClown_Attack_SpriteSheet_17: -7726338268917847908
+      redClown_Attack_SpriteSheet_18: -1756452476000287681
+      redClown_Attack_SpriteSheet_19: -6882152428417090781
+      redClown_Attack_SpriteSheet_2: -239278882313215609
+      redClown_Attack_SpriteSheet_20: -8924672196246523755
+      redClown_Attack_SpriteSheet_21: 8360384939549237127
+      redClown_Attack_SpriteSheet_22: -4120063572662923941
+      redClown_Attack_SpriteSheet_23: -4175936560302613642
+      redClown_Attack_SpriteSheet_3: 1396892555633426210
+      redClown_Attack_SpriteSheet_4: 2062526116873493469
+      redClown_Attack_SpriteSheet_5: -6202618199799599590
+      redClown_Attack_SpriteSheet_6: -8448683291928025664
+      redClown_Attack_SpriteSheet_7: 8329199943880873736
+      redClown_Attack_SpriteSheet_8: -69748954615214311
+      redClown_Attack_SpriteSheet_9: -6461362415490825890
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

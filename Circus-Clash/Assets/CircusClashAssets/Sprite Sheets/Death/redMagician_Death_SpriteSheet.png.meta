@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: 0195041d24291e7428fb1f74728ea462
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3967517279839408468
+    second: redMagician_Death_SpriteSheet_0
+  - first:
+      213: -4635282887792334299
+    second: redMagician_Death_SpriteSheet_1
+  - first:
+      213: 1426888138349529233
+    second: redMagician_Death_SpriteSheet_2
+  - first:
+      213: 4012167494668918206
+    second: redMagician_Death_SpriteSheet_3
+  - first:
+      213: 4505252566625717673
+    second: redMagician_Death_SpriteSheet_4
+  - first:
+      213: -7831822108360536945
+    second: redMagician_Death_SpriteSheet_5
+  - first:
+      213: -768880713393494316
+    second: redMagician_Death_SpriteSheet_6
+  - first:
+      213: 6587135809348842493
+    second: redMagician_Death_SpriteSheet_7
+  - first:
+      213: -6127051304059015998
+    second: redMagician_Death_SpriteSheet_8
+  - first:
+      213: 2139175077810867188
+    second: redMagician_Death_SpriteSheet_9
+  - first:
+      213: 5990883025216804223
+    second: redMagician_Death_SpriteSheet_10
+  - first:
+      213: -2616982589271063161
+    second: redMagician_Death_SpriteSheet_11
+  - first:
+      213: 8480736493408288467
+    second: redMagician_Death_SpriteSheet_12
+  - first:
+      213: 4734090658923796257
+    second: redMagician_Death_SpriteSheet_13
+  - first:
+      213: 5270770225034331032
+    second: redMagician_Death_SpriteSheet_14
+  - first:
+      213: -448578558000684615
+    second: redMagician_Death_SpriteSheet_15
+  - first:
+      213: -785009032947050653
+    second: redMagician_Death_SpriteSheet_16
+  - first:
+      213: 4743261512376597146
+    second: redMagician_Death_SpriteSheet_17
+  - first:
+      213: -331691528578513430
+    second: redMagician_Death_SpriteSheet_18
+  - first:
+      213: 1938974033106954859
+    second: redMagician_Death_SpriteSheet_19
+  - first:
+      213: 8952864559089393362
+    second: redMagician_Death_SpriteSheet_20
+  - first:
+      213: 5143882785036324750
+    second: redMagician_Death_SpriteSheet_21
+  - first:
+      213: -4290615628211791922
+    second: redMagician_Death_SpriteSheet_22
+  - first:
+      213: 2696075376114124025
+    second: redMagician_Death_SpriteSheet_23
+  - first:
+      213: 6262645384506606334
+    second: redMagician_Death_SpriteSheet_24
+  - first:
+      213: 740986869583391039
+    second: redMagician_Death_SpriteSheet_25
+  - first:
+      213: 8870776001034341623
+    second: redMagician_Death_SpriteSheet_26
+  - first:
+      213: -1321147054152342444
+    second: redMagician_Death_SpriteSheet_27
+  - first:
+      213: 2745268753246870462
+    second: redMagician_Death_SpriteSheet_28
+  - first:
+      213: 7773581585062783595
+    second: redMagician_Death_SpriteSheet_29
+  - first:
+      213: 1386775502786042603
+    second: redMagician_Death_SpriteSheet_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 158
+        width: 352
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4515d09f1f37f0730800000000000000
+      internalID: 3967517279839408468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 140
+        width: 380
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ae0b7b5ca2cafb0800000000000000
+      internalID: -4635282887792334299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 139
+        width: 367
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198ca8ca3335dc310800000000000000
+      internalID: 1426888138349529233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 151
+        width: 380
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd1c1b34151ea730800000000000000
+      internalID: 4012167494668918206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 4134
+        y: 124
+        width: 400
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad8429e65fd58e30800000000000000
+      internalID: 4505252566625717673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 5101
+        y: 102
+        width: 484
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c8e178947cf4390800000000000000
+      internalID: -7831822108360536945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 6069
+        y: 86
+        width: 599
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6288b90136455f0800000000000000
+      internalID: -768880713393494316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 7037
+        y: 77
+        width: 640
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df33e735e153a6b50800000000000000
+      internalID: 6587135809348842493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 7995
+        y: 77
+        width: 632
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cce7fc2d4758faa0800000000000000
+      internalID: -6127051304059015998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 8962
+        y: 61
+        width: 627
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb09414660efad10800000000000000
+      internalID: 2139175077810867188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 9911
+        y: 38
+        width: 641
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7517f0de54e32350800000000000000
+      internalID: 5990883025216804223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 10871
+        y: 30
+        width: 642
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785cd1f433c9eabd0800000000000000
+      internalID: -2616982589271063161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 11831
+        y: 40
+        width: 642
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3defa4b68e0a1b570800000000000000
+      internalID: 8480736493408288467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 12791
+        y: 59
+        width: 642
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127d5ab3f5ed2b140800000000000000
+      internalID: 4734090658923796257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 13751
+        y: 48
+        width: 642
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89380eb0899852940800000000000000
+      internalID: 5270770225034331032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 14711
+        y: 38
+        width: 642
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1238c9d2456c9f0800000000000000
+      internalID: -448578558000684615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 15671
+        y: 28
+        width: 642
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367d7b591761b15f0800000000000000
+      internalID: -785009032947050653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 16631
+        y: 77
+        width: 642
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a3df1f63373d140800000000000000
+      internalID: 4743261512376597146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 17591
+        y: 77
+        width: 642
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae54218ef48956bf0800000000000000
+      internalID: -331691528578513430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 18551
+        y: 77
+        width: 642
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6aeb082c9e98ea10800000000000000
+      internalID: 1938974033106954859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 19511
+        y: 77
+        width: 642
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de15b6d1e6fe3c70800000000000000
+      internalID: 8952864559089393362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 20471
+        y: 77
+        width: 642
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f4658b32eb26740800000000000000
+      internalID: 5143882785036324750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 21431
+        y: 77
+        width: 642
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec752bc91dba474c0800000000000000
+      internalID: -4290615628211791922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 22391
+        y: 77
+        width: 642
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4c5f825426a6520800000000000000
+      internalID: 2696075376114124025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 16831
+        y: 27
+        width: 321
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef281c9dbc269e650800000000000000
+      internalID: 6262645384506606334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 17785
+        y: 25
+        width: 322
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f392fb8c1a3884a00800000000000000
+      internalID: 740986869583391039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 18740
+        y: 19
+        width: 322
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc46b706c35b1b70800000000000000
+      internalID: 8870776001034341623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 19700
+        y: 19
+        width: 322
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454223501c75aade0800000000000000
+      internalID: -1321147054152342444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 20660
+        y: 19
+        width: 322
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb5242d267291620800000000000000
+      internalID: 2745268753246870462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 21620
+        y: 19
+        width: 322
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a6f22f34f41eb60800000000000000
+      internalID: 7773581585062783595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redMagician_Death_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 22580
+        y: 19
+        width: 322
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea96cae8f0de3310800000000000000
+      internalID: 1386775502786042603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      redMagician_Death_SpriteSheet_0: 3967517279839408468
+      redMagician_Death_SpriteSheet_1: -4635282887792334299
+      redMagician_Death_SpriteSheet_10: 5990883025216804223
+      redMagician_Death_SpriteSheet_11: -2616982589271063161
+      redMagician_Death_SpriteSheet_12: 8480736493408288467
+      redMagician_Death_SpriteSheet_13: 4734090658923796257
+      redMagician_Death_SpriteSheet_14: 5270770225034331032
+      redMagician_Death_SpriteSheet_15: -448578558000684615
+      redMagician_Death_SpriteSheet_16: -785009032947050653
+      redMagician_Death_SpriteSheet_17: 4743261512376597146
+      redMagician_Death_SpriteSheet_18: -331691528578513430
+      redMagician_Death_SpriteSheet_19: 1938974033106954859
+      redMagician_Death_SpriteSheet_2: 1426888138349529233
+      redMagician_Death_SpriteSheet_20: 8952864559089393362
+      redMagician_Death_SpriteSheet_21: 5143882785036324750
+      redMagician_Death_SpriteSheet_22: -4290615628211791922
+      redMagician_Death_SpriteSheet_23: 2696075376114124025
+      redMagician_Death_SpriteSheet_24: 6262645384506606334
+      redMagician_Death_SpriteSheet_25: 740986869583391039
+      redMagician_Death_SpriteSheet_26: 8870776001034341623
+      redMagician_Death_SpriteSheet_27: -1321147054152342444
+      redMagician_Death_SpriteSheet_28: 2745268753246870462
+      redMagician_Death_SpriteSheet_29: 7773581585062783595
+      redMagician_Death_SpriteSheet_3: 4012167494668918206
+      redMagician_Death_SpriteSheet_30: 1386775502786042603
+      redMagician_Death_SpriteSheet_4: 4505252566625717673
+      redMagician_Death_SpriteSheet_5: -7831822108360536945
+      redMagician_Death_SpriteSheet_6: -768880713393494316
+      redMagician_Death_SpriteSheet_7: 6587135809348842493
+      redMagician_Death_SpriteSheet_8: -6127051304059015998
+      redMagician_Death_SpriteSheet_9: 2139175077810867188
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

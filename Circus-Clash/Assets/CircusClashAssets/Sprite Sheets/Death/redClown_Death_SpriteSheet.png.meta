@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 3c4702a26dd040d418c8659b063cc732
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7196459298491034572
+    second: redClown_Death_SpriteSheet_0
+  - first:
+      213: -4030257182928410729
+    second: redClown_Death_SpriteSheet_1
+  - first:
+      213: 4014263060780280868
+    second: redClown_Death_SpriteSheet_2
+  - first:
+      213: 1454162053293520757
+    second: redClown_Death_SpriteSheet_3
+  - first:
+      213: -2337987626881729949
+    second: redClown_Death_SpriteSheet_4
+  - first:
+      213: -2116644981846008690
+    second: redClown_Death_SpriteSheet_5
+  - first:
+      213: -1339528082913454249
+    second: redClown_Death_SpriteSheet_6
+  - first:
+      213: 3503448593929507965
+    second: redClown_Death_SpriteSheet_7
+  - first:
+      213: 4801945375293229925
+    second: redClown_Death_SpriteSheet_8
+  - first:
+      213: 5702930714866623916
+    second: redClown_Death_SpriteSheet_9
+  - first:
+      213: -8856552585279912638
+    second: redClown_Death_SpriteSheet_10
+  - first:
+      213: -6160565338383924305
+    second: redClown_Death_SpriteSheet_11
+  - first:
+      213: 2453923251135127679
+    second: redClown_Death_SpriteSheet_12
+  - first:
+      213: 7623616240610362742
+    second: redClown_Death_SpriteSheet_13
+  - first:
+      213: -7344396214133653050
+    second: redClown_Death_SpriteSheet_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: redClown_Death_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 161
+        width: 310
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43492e0856a012c90800000000000000
+      internalID: -7196459298491034572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Death_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 145
+        width: 358
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797e5120276a118c0800000000000000
+      internalID: -4030257182928410729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Death_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 141
+        width: 386
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ce7cc3cf685b730800000000000000
+      internalID: 4014263060780280868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Death_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 3194
+        y: 152
+        width: 416
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577b968dea83e2410800000000000000
+      internalID: 1454162053293520757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Death_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 4166
+        y: 175
+        width: 429
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ab47af3accd8fd0800000000000000
+      internalID: -2337987626881729949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Death_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 5133
+        y: 177
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c947d7a9a20a2e0800000000000000
+      internalID: -2116644981846008690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Death_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 6101
+        y: 178
+        width: 561
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75798434e4a096de0800000000000000
+      internalID: -1339528082913454249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Death_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 7070
+        y: 179
+        width: 593
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7492022fefbe9030800000000000000
+      internalID: 3503448593929507965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Death_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 8032
+        y: 135
+        width: 603
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bce2580efe3a240800000000000000
+      internalID: 4801945375293229925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Death_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 8997
+        y: 108
+        width: 598
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca52a4e0541e42f40800000000000000
+      internalID: 5702930714866623916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Death_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 9957
+        y: 85
+        width: 596
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245c2d30954371580800000000000000
+      internalID: -8856552585279912638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Death_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 10917
+        y: 98
+        width: 597
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3ca0ef676418aa0800000000000000
+      internalID: -6160565338383924305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Death_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 11877
+        y: 111
+        width: 599
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f702bf902361e0220800000000000000
+      internalID: 2453923251135127679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Death_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 12837
+        y: 126
+        width: 599
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675ca7544968cc960800000000000000
+      internalID: 7623616240610362742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redClown_Death_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 13797
+        y: 126
+        width: 599
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c107d63e86731a90800000000000000
+      internalID: -7344396214133653050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      redClown_Death_SpriteSheet_0: -7196459298491034572
+      redClown_Death_SpriteSheet_1: -4030257182928410729
+      redClown_Death_SpriteSheet_10: -8856552585279912638
+      redClown_Death_SpriteSheet_11: -6160565338383924305
+      redClown_Death_SpriteSheet_12: 2453923251135127679
+      redClown_Death_SpriteSheet_13: 7623616240610362742
+      redClown_Death_SpriteSheet_14: -7344396214133653050
+      redClown_Death_SpriteSheet_2: 4014263060780280868
+      redClown_Death_SpriteSheet_3: 1454162053293520757
+      redClown_Death_SpriteSheet_4: -2337987626881729949
+      redClown_Death_SpriteSheet_5: -2116644981846008690
+      redClown_Death_SpriteSheet_6: -1339528082913454249
+      redClown_Death_SpriteSheet_7: 3503448593929507965
+      redClown_Death_SpriteSheet_8: 4801945375293229925
+      redClown_Death_SpriteSheet_9: 5702930714866623916
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
