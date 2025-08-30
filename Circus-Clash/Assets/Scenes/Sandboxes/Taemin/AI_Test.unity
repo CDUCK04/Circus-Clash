@@ -119,7 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &306710037
+--- !u!1001 &110102698
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -127,13 +127,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7075924456065126580, guid: 34de16208a0584da3b29262b4ec16476, type: 3}
+      propertyPath: sparkPrefab
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -5974690572580188271, guid: 34de16208a0584da3b29262b4ec16476, type: 3}
+      propertyPath: vfxPrefab
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1294478863934292559, guid: 34de16208a0584da3b29262b4ec16476, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.99
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 1294478863934292559, guid: 34de16208a0584da3b29262b4ec16476, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.44
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1294478863934292559, guid: 34de16208a0584da3b29262b4ec16476, type: 3}
       propertyPath: m_LocalPosition.z
@@ -167,17 +175,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3429218051718037519, guid: 34de16208a0584da3b29262b4ec16476, type: 3}
+      propertyPath: flashColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3429218051718037519, guid: 34de16208a0584da3b29262b4ec16476, type: 3}
+      propertyPath: flashColor.g
+      value: 0.10329774
+      objectReference: {fileID: 0}
+    - target: {fileID: 3429218051718037519, guid: 34de16208a0584da3b29262b4ec16476, type: 3}
+      propertyPath: flashColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3429218051718037519, guid: 34de16208a0584da3b29262b4ec16476, type: 3}
+      propertyPath: flashDuration
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5867860056552999349, guid: 34de16208a0584da3b29262b4ec16476, type: 3}
       propertyPath: m_Name
       value: Clown
-      objectReference: {fileID: 0}
-    - target: {fileID: 6175703077887049394, guid: 34de16208a0584da3b29262b4ec16476, type: 3}
-      propertyPath: onDied.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6175703077887049394, guid: 34de16208a0584da3b29262b4ec16476, type: 3}
-      propertyPath: onDied.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -358,7 +374,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 00000000dd1ffb7f
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -405,7 +421,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1474272164
+--- !u!1001 &1543482534
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -413,13 +429,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 660289412103214986, guid: e8ae6a14e340644ff9d1545a59c7aed7, type: 3}
+      propertyPath: vfxPrefab
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558482759454855505, guid: e8ae6a14e340644ff9d1545a59c7aed7, type: 3}
+      propertyPath: sparkPrefab
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2317090843880958602, guid: e8ae6a14e340644ff9d1545a59c7aed7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.97
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2317090843880958602, guid: e8ae6a14e340644ff9d1545a59c7aed7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.42
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 2317090843880958602, guid: e8ae6a14e340644ff9d1545a59c7aed7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -453,6 +477,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4677035322912893470, guid: e8ae6a14e340644ff9d1545a59c7aed7, type: 3}
+      propertyPath: flashDuration
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4887896684103215293, guid: e8ae6a14e340644ff9d1545a59c7aed7, type: 3}
       propertyPath: m_Name
       value: Magician
@@ -468,5 +496,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 306710037}
-  - {fileID: 1474272164}
+  - {fileID: 110102698}
+  - {fileID: 1543482534}

@@ -11,10 +11,10 @@ TagManager:
   - 
   - Water
   - UI
-  - Friendly
-  - Enemy
-  - ProjectileFriendly
-  - ProjectileEnemy
+  - 
+  - 
+  - Units
+  - 
   - 
   - 
   - 
@@ -41,17 +41,8 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 2226445061
-    locked: 0
-  - name: Ground
-    uniqueID: 1398168095
-    locked: 0
-  - name: Units
-    uniqueID: 2246769739
-    locked: 0
-  - name: UI
-    uniqueID: 2620952143
+  - name: FX
+    uniqueID: 2147164125
     locked: 0
   m_RenderingLayers:
   - Default
