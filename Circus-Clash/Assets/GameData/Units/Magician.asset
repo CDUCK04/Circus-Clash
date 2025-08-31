@@ -17,9 +17,9 @@ MonoBehaviour:
   moveSpeed: 2.6
   attackDamage: 3
   attackRate: 0.5
-  attackRange: 1.4
-  cost: 30
+  attackRange: 3
+  cost: 15
   popCost: 1
   ticketReward: 7
-  isRanged: 0
-  projectileSpeed: 0
+  isRanged: 1
+  projectileSpeed: 3

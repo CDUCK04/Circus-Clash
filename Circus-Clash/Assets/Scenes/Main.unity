@@ -947,7 +947,7 @@ GameObject:
   - component: {fileID: 800786926}
   m_Layer: 8
   m_Name: blueClown
-  m_TagString: Untagged
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1244,9 +1244,10 @@ GameObject:
   - component: {fileID: 856359356}
   - component: {fileID: 856359367}
   - component: {fileID: 856359368}
+  - component: {fileID: 856359369}
   m_Layer: 8
   m_Name: blueMagician
-  m_TagString: Untagged
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1264,7 +1265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 4787205845649011517, guid: 2f942bc10cd931344a095da3964d6238, type: 3}
-  muzzle: {fileID: 0}
+  muzzle: {fileID: 1541115011}
   cooldownOverride: 0
 --- !u!114 &856359357
 MonoBehaviour:
@@ -1520,6 +1521,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flashColor: {r: 1, g: 0.046734557, b: 0, a: 1}
   flashDuration: 0.08
+--- !u!50 &856359369
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856359355}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1029293732
 GameObject:
   m_ObjectHideFlags: 0
@@ -1564,7 +1592,7 @@ GameObject:
   - component: {fileID: 1087423019}
   m_Layer: 0
   m_Name: redClown
-  m_TagString: Untagged
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1686,7 +1714,7 @@ Transform:
   m_GameObject: {fileID: 1100194117}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.45, y: 0, z: 0}
+  m_LocalPosition: {x: 0.45, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2455,9 +2483,10 @@ GameObject:
   - component: {fileID: 1443851548}
   - component: {fileID: 1443851559}
   - component: {fileID: 1443851560}
+  - component: {fileID: 1443851561}
   m_Layer: 8
   m_Name: redMagician
-  m_TagString: Untagged
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2731,6 +2760,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flashColor: {r: 1, g: 0.046734557, b: 0, a: 1}
   flashDuration: 0.08
+--- !u!50 &1443851561
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443851547}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1447372399
 GameObject:
   m_ObjectHideFlags: 0
@@ -4092,8 +4148,8 @@ MonoBehaviour:
   playerSpawn: {fileID: 1029293733}
   enemySpawn: {fileID: 1566892169}
   playerSideMovesRight: 1
-  clownPrefab: {fileID: 0}
-  magicianPrefab: {fileID: 0}
+  clownPrefab: {fileID: 1087423018}
+  magicianPrefab: {fileID: 1443851547}
 --- !u!114 &2071765632
 MonoBehaviour:
   m_ObjectHideFlags: 0
