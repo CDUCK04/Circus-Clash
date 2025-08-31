@@ -36,7 +36,7 @@ public class TicketBooth : MonoBehaviour
 
     void RefreshUI()
     {
-        if (levelLabel) levelLabel.text = $"Booth Lv. {level}";
-        if (costLabel) costLabel.text = $"Upgrade: {CurrentCost}";
+        if (levelLabel) levelLabel.text = $"{level}";
+        if (costLabel) costLabel.text = $"{CurrentCost}";
     }
 }

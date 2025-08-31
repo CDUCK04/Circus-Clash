@@ -52,7 +52,7 @@ public class CurrencyManager : MonoBehaviour
 
     void UpdateUI()
     {
-        if (ticketsText) ticketsText.text = $"Tickets: {Tickets}";
+        if (ticketsText) ticketsText.text = $"{Tickets}";
         OnTicketsChanged?.Invoke(Tickets);
     }
 }
