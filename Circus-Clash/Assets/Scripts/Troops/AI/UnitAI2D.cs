@@ -12,13 +12,13 @@ namespace CircusClash.Troops.AI
         private State state;
         private UnitHealth health;
         private MeleeAttack melee;
-        private UnitSensor2D sensor;      // your existing script
-        private AutoStopAtRange stopper;   // your existing script (movement authority)
-        private UnitMover2D mover;         // read-only checks if needed
+        private UnitSensor2D sensor;      
+        private AutoStopAtRange stopper;  
+        private UnitMover2D mover;         
         private RangedAttack ranged;
         private UnitStats stats;
 
-        private Transform target;          // cached target we’re working with
+        private Transform target;         
 
         void Awake()
         {
@@ -40,7 +40,7 @@ namespace CircusClash.Troops.AI
                 return;
             }
 
-            // Refresh/validate target each frame
+           
             if (target == null || !target)
             {
                 target = sensor != null ? sensor.FindClosestEnemy() : null;
@@ -59,10 +59,10 @@ namespace CircusClash.Troops.AI
 
         void TickAdvance()
         {
-            // If no target, just keep advancing; AutoStopAtRange will handle stopping when needed
+            
             if (target == null) return;
 
-            // When we’re in range, switch to Attack; range check via your sensor API
+            
             if (sensor != null && sensor.InAttackRange(target))
             {
                 state = State.Attack;
@@ -71,14 +71,13 @@ namespace CircusClash.Troops.AI
 
         void TickAttack()
         {
-            // Lost target? Go back to Advance.
             if (target == null || !target)
             {
                 state = State.Advance;
                 return;
             }
 
-            // If target died, drop it and return to Advance to seek a new one
+
             var th = target.GetComponentInParent<UnitHealth>();
             if (th == null || th.IsDead)
             {
@@ -87,33 +86,42 @@ namespace CircusClash.Troops.AI
                 return;
             }
 
-            // If out of range, let AutoStopAtRange resume movement; AI goes back to Advance state
+
             if (sensor != null && !sensor.InAttackRange(target))
             {
                 state = State.Advance;
                 return;
             }
 
-            // In range: try to attack (handles cooldown internally)
-            bool usedRanged = false;
-            if (ranged != null || (stats != null && stats.IsRanged)) // prefer ranged when present
+            var animDriver = GetComponent<UnitAnimationDriver>();
+
+            bool fired = false;
+
+            if (ranged != null || (stats != null && stats.IsRanged))
             {
                 int facing = transform.localScale.x >= 0 ? +1 : -1;
-                usedRanged = ranged != null && ranged.TryShoot(target, facing > 0);
+                if (ranged != null && ranged.TryShoot(target, facing > 0))
+                {
+                    animDriver?.PlayAttack();
+                    fired = true;
+                }
             }
 
-            if (!usedRanged && melee != null)
+            if (!fired && melee != null)
             {
-                melee.TryAttack(target); // fallback to melee
+                if (melee.IsReady && melee.TryAttack(target))
+                {
+                    animDriver?.PlayAttack();
+                    fired = true;
+                }
             }
         }
 
-        void EnterDead()
-        {
-            state = State.Dead;
-            // Movement & destruction are handled elsewhere:
-            // - AutoStopAtRange + UnitMover2D won’t matter after death
-            // - UnitHealth.Die() destroys the GameObject
+            void EnterDead()
+            {
+                state = State.Dead;
+                
+            }
         }
     }
-}
+

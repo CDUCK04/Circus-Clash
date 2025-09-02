@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6242672242767523780}
   - component: {fileID: 7220975547921193798}
   - component: {fileID: 4787205845649011517}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Blue Projectile
   m_TagString: Blue
   m_Icon: {fileID: 0}
