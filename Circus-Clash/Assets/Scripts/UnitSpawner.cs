@@ -1,42 +1,62 @@
 using UnityEngine;
-using CircusClash.Troops.Movement;
 
 public class UnitSpawner : MonoBehaviour
 {
-    public static UnitSpawner Instance;
-
-    [Header("Spawn Settings")]
-    public Transform playerSpawn;     
-    public Transform enemySpawn;     
-    public bool playerSideMovesRight = true;
-
-    [Header("Prefabs")]
+    public Transform playerSpawn;
     public GameObject clownPrefab;
     public GameObject magicianPrefab;
+    public FormationManager playerFormation;
+    public bool enforceMax20 = true;
 
-    void Awake()
+    public GameObject SpawnClown() => SpawnPlayerUnit(clownPrefab);
+    public GameObject SpawnMagician() => SpawnPlayerUnit(magicianPrefab);
+
+    public void BtnSpawnClown()
     {
-        if (Instance && Instance != this) { Destroy(gameObject); return; }
-        Instance = this;
+        SpawnClown();
     }
 
-    public GameObject SpawnPlayerUnit(GameObject prefab)
+    public void BtnSpawnMagician()
+    {
+        SpawnMagician();
+    }
+
+    GameObject SpawnPlayerUnit(GameObject prefab)
     {
         if (!prefab || !playerSpawn) return null;
+
+        if (!TroopCounter.Instance || !TroopCounter.Instance.CanSpawnPlayer())
+        {
+            Debug.Log("Player troop limit reached.");
+            return null;
+        }
+
         var go = Instantiate(prefab, playerSpawn.position, Quaternion.identity);
+        var brain = go.GetComponent<UnitBrain>();
+        if (brain)
+        {
+            brain.isPlayerUnit = true;
+            brain.startStopped = false;  
+        }
 
-        var mover = go.GetComponent<UnitMover2D>();
-        if (mover) mover.SetSide(playerSideMovesRight); 
+        if (playerFormation != null)
+            playerFormation.Register(brain);
 
-        var cmd = go.GetComponent<UnitCommandReceiver>();
-        if (cmd) cmd.isPlayerUnit = true;
-
-        var dir = BattleDirector.Instance;
-        if (dir != null) cmd?.SendMessage("HandleStance", dir.CurrentStance, SendMessageOptions.DontRequireReceiver);
+        if (!TroopCounter.Instance.Register(brain))
+        {
+            Debug.Log("Could not register unit in TroopCounter; destroying.");
+            Destroy(go);
+            return null;
+        }
 
         return go;
     }
 
-    public void BtnSpawnClown() => SpawnPlayerUnit(clownPrefab);
-    public void BtnSpawnMagician() => SpawnPlayerUnit(magicianPrefab);
+
+    bool playerFormationCapacityFull()
+    {
+        // simple check: compare child count or track internally; here quick heuristic:
+        // Ideally FormationManager exposes a "IsFull" but to keep it minimal, you can inspect in FormMgr.
+        return false; // replace with real check if you want a hard cap
+    }
 }

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public enum ArmyStance { Attack, Defend, Retreat }
+public enum ArmyStance { Defend, Attack, Retreat }
 
 public class BattleDirector : MonoBehaviour
 {
@@ -9,14 +9,12 @@ public class BattleDirector : MonoBehaviour
 
     [Header("Scene Anchors")]
     public Transform playerTent;
-    public Transform enemyTent;    
-    public float tentStopRadius = 0.8f;
+    public Transform enemyTent;
 
     [Header("Defaults")]
     public ArmyStance startingStance = ArmyStance.Defend;
 
     public ArmyStance CurrentStance { get; private set; }
-
     public event Action<ArmyStance> OnStanceChanged;
 
     void Awake()
@@ -25,6 +23,7 @@ public class BattleDirector : MonoBehaviour
         Instance = this;
         CurrentStance = startingStance;
     }
+
     public void CmdAttack() => SetStance(ArmyStance.Attack);
     public void CmdDefend() => SetStance(ArmyStance.Defend);
     public void CmdRetreat() => SetStance(ArmyStance.Retreat);

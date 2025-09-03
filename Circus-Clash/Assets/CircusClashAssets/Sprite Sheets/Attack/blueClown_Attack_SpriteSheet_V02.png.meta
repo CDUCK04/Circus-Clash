@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: be45332a5167b8944a35a11dad124716
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5197100013809908547
+    second: blueClown_Attack_SpriteSheet_V02_0
+  - first:
+      213: 822886641775890381
+    second: blueClown_Attack_SpriteSheet_V02_1
+  - first:
+      213: 6625190264069155100
+    second: blueClown_Attack_SpriteSheet_V02_2
+  - first:
+      213: -2353885547925731911
+    second: blueClown_Attack_SpriteSheet_V02_3
+  - first:
+      213: 3944399118827001834
+    second: blueClown_Attack_SpriteSheet_V02_4
+  - first:
+      213: 6459436718297322020
+    second: blueClown_Attack_SpriteSheet_V02_5
+  - first:
+      213: -3929046937589773336
+    second: blueClown_Attack_SpriteSheet_V02_6
+  - first:
+      213: 4856458980861116825
+    second: blueClown_Attack_SpriteSheet_V02_7
+  - first:
+      213: -7172078392632950167
+    second: blueClown_Attack_SpriteSheet_V02_8
+  - first:
+      213: 7908223575218341970
+    second: blueClown_Attack_SpriteSheet_V02_9
+  - first:
+      213: 6268012300026161464
+    second: blueClown_Attack_SpriteSheet_V02_10
+  - first:
+      213: -7038260539643111441
+    second: blueClown_Attack_SpriteSheet_V02_11
+  - first:
+      213: -8031082963670252058
+    second: blueClown_Attack_SpriteSheet_V02_12
+  - first:
+      213: -1768136061569850317
+    second: blueClown_Attack_SpriteSheet_V02_13
+  - first:
+      213: -1979340887605514414
+    second: blueClown_Attack_SpriteSheet_V02_14
+  - first:
+      213: 8487747239394601739
+    second: blueClown_Attack_SpriteSheet_V02_15
+  - first:
+      213: 6852649820002266086
+    second: blueClown_Attack_SpriteSheet_V02_16
+  - first:
+      213: -4890873434968537793
+    second: blueClown_Attack_SpriteSheet_V02_17
+  - first:
+      213: -1372210371011505626
+    second: blueClown_Attack_SpriteSheet_V02_18
+  - first:
+      213: 3761530050786346012
+    second: blueClown_Attack_SpriteSheet_V02_19
+  - first:
+      213: -3811185375051538412
+    second: blueClown_Attack_SpriteSheet_V02_20
+  - first:
+      213: 5411528879404381918
+    second: blueClown_Attack_SpriteSheet_V02_21
+  - first:
+      213: -6687202124835665727
+    second: blueClown_Attack_SpriteSheet_V02_22
+  - first:
+      213: 4503228489476590996
+    second: blueClown_Attack_SpriteSheet_V02_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 480
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_0
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 161
+        width: 326
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4cea6a21130e7b0800000000000000
+      internalID: -5197100013809908547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_1
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 161
+        width: 393
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf47757a0b7b6b00800000000000000
+      internalID: 822886641775890381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_2
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 161
+        width: 402
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19e733817761fb50800000000000000
+      internalID: 6625190264069155100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_3
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 161
+        width: 364
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b506f9c091555fd0800000000000000
+      internalID: -2353885547925731911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_4
+      rect:
+        serializedVersion: 2
+        x: 4206
+        y: 161
+        width: 384
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae71c0aa9125db630800000000000000
+      internalID: 3944399118827001834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_5
+      rect:
+        serializedVersion: 2
+        x: 5166
+        y: 161
+        width: 428
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4221a33c87784a950800000000000000
+      internalID: 6459436718297322020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_6
+      rect:
+        serializedVersion: 2
+        x: 6126
+        y: 161
+        width: 379
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb002390a83979c0800000000000000
+      internalID: -3929046937589773336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_7
+      rect:
+        serializedVersion: 2
+        x: 7086
+        y: 161
+        width: 313
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9918b7466bb956340800000000000000
+      internalID: 4856458980861116825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_8
+      rect:
+        serializedVersion: 2
+        x: 7956
+        y: 161
+        width: 326
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962cbd183b8a77c90800000000000000
+      internalID: -7172078392632950167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_9
+      rect:
+        serializedVersion: 2
+        x: 8842
+        y: 161
+        width: 390
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258424d2177afbd60800000000000000
+      internalID: 7908223575218341970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_10
+      rect:
+        serializedVersion: 2
+        x: 9799
+        y: 161
+        width: 393
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839a6de3af37cf650800000000000000
+      internalID: 6268012300026161464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_11
+      rect:
+        serializedVersion: 2
+        x: 10746
+        y: 161
+        width: 427
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe75ce95453135e90800000000000000
+      internalID: -7038260539643111441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_12
+      rect:
+        serializedVersion: 2
+        x: 11733
+        y: 161
+        width: 383
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e54eb4589cdb8090800000000000000
+      internalID: -8031082963670252058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_13
+      rect:
+        serializedVersion: 2
+        x: 12731
+        y: 161
+        width: 341
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3342297be915677e0800000000000000
+      internalID: -1768136061569850317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_14
+      rect:
+        serializedVersion: 2
+        x: 13739
+        y: 161
+        width: 319
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25fedd023f7f784e0800000000000000
+      internalID: -1979340887605514414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_15
+      rect:
+        serializedVersion: 2
+        x: 14707
+        y: 161
+        width: 320
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bea6be4298ac570800000000000000
+      internalID: 8487747239394601739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_16
+      rect:
+        serializedVersion: 2
+        x: 15674
+        y: 161
+        width: 320
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb216354b0891f50800000000000000
+      internalID: 6852649820002266086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_17
+      rect:
+        serializedVersion: 2
+        x: 16634
+        y: 161
+        width: 320
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f354e4b1680202cb0800000000000000
+      internalID: -4890873434968537793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_18
+      rect:
+        serializedVersion: 2
+        x: 17594
+        y: 161
+        width: 320
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62290c610fde4fce0800000000000000
+      internalID: -1372210371011505626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_19
+      rect:
+        serializedVersion: 2
+        x: 18554
+        y: 161
+        width: 320
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14c319d6a3a33430800000000000000
+      internalID: 3761530050786346012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_20
+      rect:
+        serializedVersion: 2
+        x: 19514
+        y: 161
+        width: 320
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410a3ea0813fb1bc0800000000000000
+      internalID: -3811185375051538412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_21
+      rect:
+        serializedVersion: 2
+        x: 20474
+        y: 161
+        width: 320
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed67aa428dc991b40800000000000000
+      internalID: 5411528879404381918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_22
+      rect:
+        serializedVersion: 2
+        x: 21434
+        y: 161
+        width: 320
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8cee709194233a0800000000000000
+      internalID: -6687202124835665727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueClown_Attack_SpriteSheet_V02_23
+      rect:
+        serializedVersion: 2
+        x: 22394
+        y: 161
+        width: 320
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49dcba9b37eae7e30800000000000000
+      internalID: 4503228489476590996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blueClown_Attack_SpriteSheet_V02_0: -5197100013809908547
+      blueClown_Attack_SpriteSheet_V02_1: 822886641775890381
+      blueClown_Attack_SpriteSheet_V02_10: 6268012300026161464
+      blueClown_Attack_SpriteSheet_V02_11: -7038260539643111441
+      blueClown_Attack_SpriteSheet_V02_12: -8031082963670252058
+      blueClown_Attack_SpriteSheet_V02_13: -1768136061569850317
+      blueClown_Attack_SpriteSheet_V02_14: -1979340887605514414
+      blueClown_Attack_SpriteSheet_V02_15: 8487747239394601739
+      blueClown_Attack_SpriteSheet_V02_16: 6852649820002266086
+      blueClown_Attack_SpriteSheet_V02_17: -4890873434968537793
+      blueClown_Attack_SpriteSheet_V02_18: -1372210371011505626
+      blueClown_Attack_SpriteSheet_V02_19: 3761530050786346012
+      blueClown_Attack_SpriteSheet_V02_2: 6625190264069155100
+      blueClown_Attack_SpriteSheet_V02_20: -3811185375051538412
+      blueClown_Attack_SpriteSheet_V02_21: 5411528879404381918
+      blueClown_Attack_SpriteSheet_V02_22: -6687202124835665727
+      blueClown_Attack_SpriteSheet_V02_23: 4503228489476590996
+      blueClown_Attack_SpriteSheet_V02_3: -2353885547925731911
+      blueClown_Attack_SpriteSheet_V02_4: 3944399118827001834
+      blueClown_Attack_SpriteSheet_V02_5: 6459436718297322020
+      blueClown_Attack_SpriteSheet_V02_6: -3929046937589773336
+      blueClown_Attack_SpriteSheet_V02_7: 4856458980861116825
+      blueClown_Attack_SpriteSheet_V02_8: -7172078392632950167
+      blueClown_Attack_SpriteSheet_V02_9: 7908223575218341970
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

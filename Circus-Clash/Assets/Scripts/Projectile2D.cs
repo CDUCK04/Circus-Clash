@@ -3,31 +3,33 @@ using UnityEngine;
 [RequireComponent(typeof(Collider2D))]
 public class Projectile2D : MonoBehaviour
 {
-    public float lifeTime = 5f;
+    public float lifeTime = 4f;
+    Rigidbody2D rb;
 
     int damage;
-    Vector2 velocity;
-    string bulletName;
+    string targetTag;
 
-    public void Init(int dmg, Vector2 vel) { damage = dmg; velocity = vel; }
-
-    void Start()
+    void Awake()
     {
+        rb = GetComponent<Rigidbody2D>();
+        if (rb) rb.gravityScale = 0f;
         Destroy(gameObject, lifeTime);
-        bulletName = this.name;
     }
 
-    void Update() => transform.Translate(velocity * Time.deltaTime);
+    public void Init(int dmg, Vector2 velocity, string targetTag)
+    {
+        this.damage = dmg;
+        this.targetTag = targetTag;
+        if (rb) rb.linearVelocity = velocity;
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        var hp = other.GetComponentInParent<CircusClash.Troops.Combat.UnitHealth>();
+        if (!string.IsNullOrEmpty(targetTag) && !other.CompareTag(targetTag)) return;
 
-        if (hp == null || hp.IsDead) return;
+        var hp = other.GetComponentInParent<UnitHealth>();
+        if (hp != null) hp.TakeDamage(damage);
 
-        if (other.CompareTag(this.tag)) return;
-
-        hp.TakeDamage(damage);
         Destroy(gameObject);
     }
 }
