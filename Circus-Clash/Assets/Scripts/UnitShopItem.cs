@@ -10,6 +10,7 @@ public class UnitShopItem : MonoBehaviour
     [Header("Optional UI")]
     public TMP_Text priceLabel;   // e.g., a small price text on the button
 
+    public TroopCounter troopCounter;
     Button _btn;
     bool _subscribed;
 
@@ -70,6 +71,8 @@ public class UnitShopItem : MonoBehaviour
     public void Purchase()
     {
         if (CurrencyManager.Instance == null) return;
+
+        if (troopCounter.playerCount == 20) return;
 
         if (CurrencyManager.Instance.Spend(cost))
         {

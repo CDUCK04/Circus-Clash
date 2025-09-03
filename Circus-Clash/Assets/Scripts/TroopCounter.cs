@@ -12,7 +12,7 @@ public class TroopCounter : MonoBehaviour
     [Header("UI (optional)")]
     public TMP_Text playerLable;
 
-    int playerCount;
+    public int playerCount;
     int enemyCount;
 
     void Awake()

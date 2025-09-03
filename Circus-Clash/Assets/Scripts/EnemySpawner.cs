@@ -7,7 +7,7 @@ public class EnemySpawner : MonoBehaviour
     public GameObject magicianEnemyPrefab;
     public FormationManager enemyFormation;   
     public bool enforceMax20 = true;
-
+    
     public GameObject SpawnClownEnemy() => SpawnEnemy(clownEnemyPrefab);
     public GameObject SpawnMagicianEnemy() => SpawnEnemy(magicianEnemyPrefab);
 

@@ -7,9 +7,10 @@ public class UnitHealth : MonoBehaviour
     public UnityEvent onDied;
     public UnityEvent<int> onDamaged;
     public UnitBrain unitBrain;
-
-    int current;
-    bool deathHandled;                   // NEW: latch
+    public GameObject winPanel;
+    public GameObject losePanel;
+    public int current;
+    bool deathHandled;         
     public bool IsDead => current <= 0;
 
     void Awake()
@@ -44,7 +45,19 @@ public class UnitHealth : MonoBehaviour
             }
             else
             {
-                Destroy(gameObject);
+                if(name == "Red Tent")
+                {
+                    losePanel.SetActive(true);
+                    Destroy(gameObject);
+                    Time.timeScale = 0f;
+                    
+                }else if (name == "Blue Tent")
+                {
+                    winPanel.SetActive(true);
+                    Destroy(gameObject);
+                    Time.timeScale = 0f;
+                }
+                ;
             }
         }
     }
