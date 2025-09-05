@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4245849651727742809}
   - component: {fileID: 2462669188366673006}
   - component: {fileID: 7178685580065569749}
+  - component: {fileID: 7558754366990135448}
   m_Layer: 8
   m_Name: redClown
   m_TagString: Player
@@ -133,7 +134,10 @@ MonoBehaviour:
   onDamaged:
     m_PersistentCalls:
       m_Calls: []
-  unitBrain: {fileID: 0}
+  unitBrain: {fileID: 7178685580065569749}
+  winPanel: {fileID: 0}
+  losePanel: {fileID: 0}
+  current: 0
 --- !u!114 &4245849651727742809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -234,3 +238,20 @@ MonoBehaviour:
   allyMask:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &7558754366990135448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7294618351038752217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1134b59c3a187c94aa9ca41ca7bde0b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brain: {fileID: 7178685580065569749}
+  animator: {fileID: 1961867383017470414}
+  spriteRenderer: {fileID: 3586307319313510221}
+  idleSprite: {fileID: 4954103759550609680, guid: 5fe2d41e1ace62e4884df52ff3989b9d, type: 3}
+  resumeStateName: 

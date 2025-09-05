@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2810852393923906883}
   - component: {fileID: 2682178833460018356}
   - component: {fileID: 502790319415479976}
+  - component: {fileID: -3423898220004072454}
   m_Layer: 8
   m_Name: redMagician
   m_TagString: Player
@@ -134,7 +135,10 @@ MonoBehaviour:
   onDamaged:
     m_PersistentCalls:
       m_Calls: []
-  unitBrain: {fileID: 0}
+  unitBrain: {fileID: 502790319415479976}
+  winPanel: {fileID: 0}
+  losePanel: {fileID: 0}
+  current: 0
 --- !u!61 &2810852393923906883
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -235,6 +239,23 @@ MonoBehaviour:
   allyMask:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &-3423898220004072454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756376524071545790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1134b59c3a187c94aa9ca41ca7bde0b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brain: {fileID: 502790319415479976}
+  animator: {fileID: 7791009124419031191}
+  spriteRenderer: {fileID: 7681245071352944132}
+  idleSprite: {fileID: -566129343489692762, guid: 50524dc203496dc4c98b499ddcfd5033, type: 3}
+  resumeStateName: 
 --- !u!1 &6668838686438260554
 GameObject:
   m_ObjectHideFlags: 0

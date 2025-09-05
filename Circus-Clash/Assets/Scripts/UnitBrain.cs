@@ -40,9 +40,15 @@ public class UnitBrain : MonoBehaviour
     public float separationRadius = 0.5f;     
     public float separationForce = 2f;       
     public int separationMaxNeighbors = 6;   
-    public LayerMask allyMask;                
+    public LayerMask allyMask;
 
-    // runtime
+    public bool IsEngaged { get; private set; }
+
+    [Header("Pursue Relaxation")]
+    public float defendPursueRange = 0.75f; // only pursue in Defend if target is very close
+
+    Vector3 _lastPos;
+    float _movedThisFrame;
     UnitHealth hp;
     Transform enemyTent;
     Transform playerTent;
@@ -85,6 +91,7 @@ public class UnitBrain : MonoBehaviour
     void Start()
     {
         if (startStopped) _stopped = true;
+        _lastPos = transform.position;
 
         if (isPlayerUnit)
         {
@@ -162,21 +169,21 @@ public class UnitBrain : MonoBehaviour
         // Decide destination per stance
         Vector3 dest = transform.position;
 
-        // If we SEE a target and are NOT in range, PURSUE it (fixes “walk past”)
-        if (pursueTargetInSight && target && !inRange)
+        // Only pursue when ATTACKING, or (optionally) when DEFENDING and target is very close
+        bool allowPursue = (stance == ArmyStance.Attack) ||
+                           (stance == ArmyStance.Defend && target && Vector2.Distance(transform.position, target.position) <= defendPursueRange);
+
+        // If we SEE a target and are NOT in range, PURSUE it
+        if (pursueTargetInSight && allowPursue && target && !inRange)
         {
-            dest = target.position; // go to target’s x & y until in range
+            dest = target.position;
         }
         else
         {
             if (stance == ArmyStance.Attack)
             {
                 float yLine = homeSlotSet ? homeSlot.y : transform.position.y;
-                float xGoal = (isPlayerUnit ? (BattleDirector.Instance ? BattleDirector.Instance.enemyTent : null)
-                                            : (BattleDirector.Instance ? BattleDirector.Instance.playerTent : null))
-                                            ? (isPlayerUnit ? BattleDirector.Instance.enemyTent.position.x
-                                                            : BattleDirector.Instance.playerTent.position.x)
-                                            : transform.position.x;
+                float xGoal = foeTent ? foeTent.position.x : transform.position.x;
                 dest = new Vector3(xGoal, yLine, transform.position.z);
             }
             else if (stance == ArmyStance.Retreat)
@@ -197,43 +204,56 @@ public class UnitBrain : MonoBehaviour
         }
         else
         {
-            if (stance == ArmyStance.Defend && (!target || !pursueTargetInSight))
+            if (stance == ArmyStance.Defend && (!target || !allowPursue))
             {
-                // Hold exactly where Defend was pressed (unless we’re actively pursuing a seen target)
                 _stopped = true;
             }
             else
             {
                 _stopped = false;
-                MoveToward(dest); // <-- separation happens inside MoveToward now
+                // Tell MoveToward whether to use separation: only when not homing to anchors
+                bool toAnchor = (stance == ArmyStance.Retreat) || (stance == ArmyStance.Defend);
+                MoveToward(dest, disableSeparation: toAnchor);
             }
         }
 
-        // Face target or travel direction
         Face((target ? (target.position.x - transform.position.x) : (isPlayerUnit ? +1f : -1f)) >= 0f);
 
-        // Anim flags
-        SetAnim(!_stopped, false);
+        IsEngaged = (target && inRange) || armed || armedMelee;
+
+        bool movingForAnim = !_stopped && _movedThisFrame > 0.000001f;
+
+        SetAnim(movingForAnim, false);
+
+        _lastPos = transform.position;
     }
 
-    void MoveToward(Vector3 dest)
+    void MoveToward(Vector3 dest, bool disableSeparation = false)
     {
         Vector3 to = dest - transform.position;
-        if (to.sqrMagnitude < stopDistance * stopDistance) { _stopped = true; return; }
+        float distSqr = to.sqrMagnitude;
+
+        float stopSqr = stopDistance * stopDistance;
+        if (distSqr <= stopSqr)
+        {
+            transform.position = dest;
+            _stopped = true;
+            _movedThisFrame = 0f;
+            return;
+        }
 
         Vector2 dir = new Vector2(to.x, to.y).normalized;
 
-        if (enableSeparation)
+        if (!disableSeparation && enableSeparation)
         {
             Vector2 sep = ComputeSeparation();
             if (sep.sqrMagnitude > 0.0001f)
-            {
-                // Blend goal direction with separation, re-normalize
                 dir = (dir + sep).normalized;
-            }
         }
 
+        Vector3 before = transform.position;
         transform.position += (Vector3)(dir * moveSpeed * Time.deltaTime);
+        _movedThisFrame = (transform.position - before).sqrMagnitude;
     }
 
     Vector2 ComputeSeparation()
@@ -284,8 +304,14 @@ public class UnitBrain : MonoBehaviour
    public void SetAnim(bool moving, bool dead)
     {
         if (!anim) return;
-        if (!string.IsNullOrEmpty(isMovingParam)) anim.SetBool(isMovingParam, moving);
-        if (!string.IsNullOrEmpty(isDeadParam)) anim.SetBool(isDeadParam, dead);
+
+        if (!string.IsNullOrEmpty(isMovingParam))
+            anim.SetBool(isMovingParam, moving);
+
+        if (!string.IsNullOrEmpty(isDeadParam))
+            anim.SetBool(isDeadParam, dead);
+
+        anim.SetBool("IsIdle", !moving && !IsEngaged && !dead);
     }
 
     Transform FindClosestEnemy()

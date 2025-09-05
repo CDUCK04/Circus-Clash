@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5928048449321212088}
   - component: {fileID: 8347990377322600459}
   - component: {fileID: 3695108789797595733}
+  - component: {fileID: -4743834412453870845}
   m_Layer: 8
   m_Name: blueClown
   m_TagString: Enemy
@@ -133,7 +134,10 @@ MonoBehaviour:
   onDamaged:
     m_PersistentCalls:
       m_Calls: []
-  unitBrain: {fileID: 0}
+  unitBrain: {fileID: 3695108789797595733}
+  winPanel: {fileID: 0}
+  losePanel: {fileID: 0}
+  current: 0
 --- !u!114 &5928048449321212088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -234,3 +238,20 @@ MonoBehaviour:
   allyMask:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &-4743834412453870845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557332989075085253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1134b59c3a187c94aa9ca41ca7bde0b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brain: {fileID: 3695108789797595733}
+  animator: {fileID: 2319347749061975533}
+  spriteRenderer: {fileID: 364221793916086737}
+  idleSprite: {fileID: -8548101717376280060, guid: b26a3536b01dc004d984df7cf787706c, type: 3}
+  resumeStateName: 

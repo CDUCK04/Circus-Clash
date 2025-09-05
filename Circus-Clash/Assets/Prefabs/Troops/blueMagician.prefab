@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 8150112814605253446}
   - component: {fileID: 4661493740397639478}
   - component: {fileID: 6776498921460160721}
+  - component: {fileID: 8398952042808721106}
   m_Layer: 8
   m_Name: blueMagician
   m_TagString: Enemy
@@ -165,7 +166,10 @@ MonoBehaviour:
   onDamaged:
     m_PersistentCalls:
       m_Calls: []
-  unitBrain: {fileID: 0}
+  unitBrain: {fileID: 6776498921460160721}
+  winPanel: {fileID: 0}
+  losePanel: {fileID: 0}
+  current: 0
 --- !u!61 &8150112814605253446
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -266,3 +270,20 @@ MonoBehaviour:
   allyMask:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &8398952042808721106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8536089007709999857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1134b59c3a187c94aa9ca41ca7bde0b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brain: {fileID: 6776498921460160721}
+  animator: {fileID: 1185528498393593308}
+  spriteRenderer: {fileID: 121109778465235501}
+  idleSprite: {fileID: 8096261985797494701, guid: c7dca879703883848ac05ca30e030ca6, type: 3}
+  resumeStateName: 
