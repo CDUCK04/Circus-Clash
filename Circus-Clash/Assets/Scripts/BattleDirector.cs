@@ -19,6 +19,7 @@ public class BattleDirector : MonoBehaviour
 
     void Awake()
     {
+        Time.timeScale = 1f;
         if (Instance && Instance != this) { Destroy(gameObject); return; }
         Instance = this;
         CurrentStance = startingStance;

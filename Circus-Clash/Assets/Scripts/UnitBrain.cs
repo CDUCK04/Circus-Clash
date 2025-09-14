@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -21,7 +23,7 @@ public class UnitBrain : MonoBehaviour
     public bool isRanged = false;
     public int attackDamage = 10;
     public float attackRange = 1.4f;
-    public float attackRate = 1.0f; 
+    public float attackRate = 1.0f;
     public Projectile2D projectilePrefab;
     public Transform muzzle;
     public float projectileSpeed = 8f;
@@ -33,84 +35,111 @@ public class UnitBrain : MonoBehaviour
     public string attackTrigger = "Attack";
 
     [Header("Targeting")]
-    public bool pursueTargetInSight = true;   
+    public bool pursueTargetInSight = true;
 
     [Header("Separation (anti-overlap)")]
-    public bool enableSeparation = true;     
-    public float separationRadius = 0.5f;     
-    public float separationForce = 2f;       
-    public int separationMaxNeighbors = 6;   
+    public bool enableSeparation = true;
+    public float separationRadius = 0.5f;
+    public float separationForce = 2f;
+    public int separationMaxNeighbors = 6;
     public LayerMask allyMask;
 
     public bool IsEngaged { get; private set; }
 
     [Header("Pursue Relaxation")]
-    public float defendPursueRange = 0.75f; // only pursue in Defend if target is very close
+    public float defendPursueRange = 0.75f; 
+
+    [Header("Anti-Jam (ally pass-through)")]
+    public bool enableAllyPassThrough = true;
+    public float blockedSpeedThreshold = 0.00002f; 
+    public float blockedCheckSeconds = 0.6f;    
+    public float passProbeDistance = 0.9f;        
+    public float passProbeRadius = 0.3f;           
+    public float passThroughSeconds = 0.6f;        
+
+    float _blockedTimer;
+    bool _isPassing;
+    readonly System.Collections.Generic.HashSet<(Collider2D a, Collider2D b)> _ignoredPairs
+        = new System.Collections.Generic.HashSet<(Collider2D, Collider2D)>();
 
     Vector3 _lastPos;
     float _movedThisFrame;
     UnitHealth hp;
-    Transform enemyTent;
-    Transform playerTent;
+
+    // Tents & formation
     Transform foeTent;
     FormationManager formation;
     Vector3 formationPos;
     bool hasFormationPos;
+
     float nextAttackTime;
     Transform target;
 
-    Vector3 homeSlot;        
+    Vector3 homeSlot;
     bool homeSlotSet;
 
-    Vector3 holdPoint;       
+    Vector3 holdPoint;
     bool holdingHere;
 
-    bool armed;       
+    bool armed;
     Transform attackTarget;
 
     bool armedMelee;
     Transform meleeTarget;
 
     ArmyStance _stance;
+    BattleDirector _playerDir;
+    EnemyCommander _enemyCmd;
+
+    bool _stopped;
+    Vector2 MoveDir => isPlayerUnit ? Vector2.right : Vector2.left;
+
     void Awake()
     {
         hp = GetComponent<UnitHealth>();
-        var dir = BattleDirector.Instance;
-        if (dir)
-        {
-            foeTent = isPlayerUnit ? dir.enemyTent : dir.playerTent;
-
-            if (isPlayerUnit)
-                dir.OnStanceChanged += OnStanceChanged;
-            else if (EnemyCommander.Instance)
-                EnemyCommander.Instance.OnStanceChanged += OnStanceChanged;
-        }
         formation = FindObjectOfType<FormationManager>();
+        if (startStopped) _stopped = true;
+        _lastPos = transform.position;
     }
 
     void Start()
     {
-        if (startStopped) _stopped = true;
-        _lastPos = transform.position;
+        _playerDir = BattleDirector.Instance;
+        _enemyCmd = EnemyCommander.Instance;
 
         if (isPlayerUnit)
         {
-            var bd = BattleDirector.Instance;
-            ApplyStance(bd ? bd.CurrentStance : ArmyStance.Retreat);
+            if (_playerDir)
+            {
+                foeTent = _playerDir.enemyTent;
+                _playerDir.OnStanceChanged += OnPlayerStanceChanged;
+                ApplyStance(_playerDir.CurrentStance);
+            }
+            else
+            {
+                ApplyStance(ArmyStance.Retreat);
+            }
         }
         else
         {
-            var ed = EnemyCommander.Instance;
-            ApplyStance(ed ? ed.CurrentStance : ArmyStance.Attack);
+            if (_playerDir) foeTent = _playerDir.playerTent;
+
+            if (_enemyCmd)
+            {
+                _enemyCmd.OnStanceChanged += OnEnemyStanceChanged;
+                ApplyStance(_enemyCmd.CurrentStance);
+            }
+            else
+            {
+                ApplyStance(ArmyStance.Attack);
+            }
         }
     }
 
     void OnDestroy()
     {
-        if (isPlayerUnit && BattleDirector.Instance)
-            BattleDirector.Instance.OnStanceChanged -= OnStanceChanged;
-        if (!isPlayerUnit && EnemyCommander.Instance)
-            EnemyCommander.Instance.OnStanceChanged -= OnStanceChanged;
+        if (isPlayerUnit && _playerDir) _playerDir.OnStanceChanged -= OnPlayerStanceChanged;
+        if (!isPlayerUnit && _enemyCmd) _enemyCmd.OnStanceChanged -= OnEnemyStanceChanged;
 
         if (formation && isPlayerUnit) formation.Unregister(this);
     }
@@ -119,17 +148,17 @@ public class UnitBrain : MonoBehaviour
     {
         homeSlot = worldPos;
         homeSlotSet = true;
-        
     }
 
-    void OnStanceChanged(ArmyStance s)
+    void OnPlayerStanceChanged(ArmyStance s)
     {
-        if (!isPlayerUnit) return; 
-        ApplyStance(s);
+        if (isPlayerUnit) ApplyStance(s);
     }
 
-    bool _stopped;
-    Vector2 MoveDir => isPlayerUnit ? Vector2.right : Vector2.left;
+    void OnEnemyStanceChanged(ArmyStance s)
+    {
+        if (!isPlayerUnit) ApplyStance(s);
+    }
 
     void ApplyStance(ArmyStance s)
     {
@@ -159,21 +188,15 @@ public class UnitBrain : MonoBehaviour
     {
         if (hp.IsDead) { SetAnim(false, true); return; }
 
-        // Acquire target and range check
         target = FindClosestEnemy();
         bool inRange = target && InAttackRange(target);
 
-        // Current stance
+        Vector3 dest = transform.position;
         var stance = _stance;
 
-        // Decide destination per stance
-        Vector3 dest = transform.position;
-
-        // Only pursue when ATTACKING, or (optionally) when DEFENDING and target is very close
         bool allowPursue = (stance == ArmyStance.Attack) ||
                            (stance == ArmyStance.Defend && target && Vector2.Distance(transform.position, target.position) <= defendPursueRange);
 
-        // If we SEE a target and are NOT in range, PURSUE it
         if (pursueTargetInSight && allowPursue && target && !inRange)
         {
             dest = target.position;
@@ -190,13 +213,12 @@ public class UnitBrain : MonoBehaviour
             {
                 dest = homeSlotSet ? homeSlot : transform.position;
             }
-            else /* Defend */
+            else 
             {
                 dest = holdingHere ? holdPoint : transform.position;
             }
         }
 
-        // Act
         if (inRange)
         {
             _stopped = true;
@@ -211,7 +233,6 @@ public class UnitBrain : MonoBehaviour
             else
             {
                 _stopped = false;
-                // Tell MoveToward whether to use separation: only when not homing to anchors
                 bool toAnchor = (stance == ArmyStance.Retreat) || (stance == ArmyStance.Defend);
                 MoveToward(dest, disableSeparation: toAnchor);
             }
@@ -222,10 +243,88 @@ public class UnitBrain : MonoBehaviour
         IsEngaged = (target && inRange) || armed || armedMelee;
 
         bool movingForAnim = !_stopped && _movedThisFrame > 0.000001f;
-
         SetAnim(movingForAnim, false);
 
+        if (enableAllyPassThrough && !_isPassing)
+        {
+            if (!_stopped && _movedThisFrame < blockedSpeedThreshold)
+                _blockedTimer += Time.deltaTime;
+            else
+                _blockedTimer = 0f;
+
+            if (_blockedTimer >= blockedCheckSeconds && AllyDirectlyAhead(out var allyColliders))
+            {
+                StartCoroutine(TemporaryPassThroughAllies(allyColliders, passThroughSeconds));
+                _blockedTimer = 0f;
+            }
+        }
+
         _lastPos = transform.position;
+    }
+
+    bool AllyDirectlyAhead(out System.Collections.Generic.List<Collider2D> allyCols)
+    {
+        allyCols = null;
+
+        Vector2 dir = new Vector2(isPlayerUnit ? 1f : -1f, 0f);
+        Vector2 origin = (Vector2)transform.position + dir * (passProbeRadius * 0.5f);
+
+        var hits = Physics2D.OverlapCircleAll(origin + dir * passProbeDistance * 0.5f,
+                                              passProbeRadius, allyMask);
+        if (hits == null || hits.Length == 0) return false;
+
+        var list = new System.Collections.Generic.List<Collider2D>();
+        foreach (var h in hits)
+        {
+            if (!h) continue;
+            var ub = h.GetComponentInParent<UnitBrain>();
+            if (!ub || ub == this) continue;
+            if (ub.isPlayerUnit != this.isPlayerUnit) continue; 
+
+            float dx = (ub.transform.position.x - transform.position.x) * (isPlayerUnit ? 1f : -1f);
+            if (dx < -0.05f) continue;
+
+            list.Add(h);
+        }
+
+        if (list.Count == 0) return false;
+        allyCols = list;
+        return true;
+    }
+
+    IEnumerator TemporaryPassThroughAllies(List<Collider2D> allyCols, float seconds)
+    {
+        _isPassing = true;
+
+        var myCols = GetComponentsInChildren<Collider2D>();
+        if (myCols != null && allyCols != null)
+        {
+            foreach (var mc in myCols)
+            {
+                if (!mc || !mc.enabled) continue;
+                foreach (var ac in allyCols)
+                {
+                    if (!ac || !ac.enabled) continue;
+                    Physics2D.IgnoreCollision(mc, ac, true);
+                    _ignoredPairs.Add((mc, ac));
+                }
+            }
+        }
+
+        float t = 0f;
+        while (t < seconds)
+        {
+            t += Time.unscaledDeltaTime; 
+            yield return null;
+        }
+
+        foreach (var pair in _ignoredPairs)
+        {
+            if (pair.a && pair.b) Physics2D.IgnoreCollision(pair.a, pair.b, false);
+        }
+        _ignoredPairs.Clear();
+
+        _isPassing = false;
     }
 
     void MoveToward(Vector3 dest, bool disableSeparation = false)
@@ -271,7 +370,7 @@ public class UnitBrain : MonoBehaviour
 
             var other = h.GetComponentInParent<UnitBrain>();
             if (!other || other == this) continue;
-            if (other.isPlayerUnit != this.isPlayerUnit) continue;  
+            if (other.isPlayerUnit != this.isPlayerUnit) continue;
             Vector2 diff = (Vector2)(transform.position - other.transform.position);
             float d = diff.magnitude;
             if (d < 0.0001f) continue;
@@ -279,12 +378,12 @@ public class UnitBrain : MonoBehaviour
             total += diff / (d * d);
 
             counted++;
-            if (counted >= separationMaxNeighbors) break; 
+            if (counted >= separationMaxNeighbors) break;
         }
 
         if (counted == 0) return Vector2.zero;
 
-        total /= counted;                
+        total /= counted;
         total = total.normalized * separationForce;
         return total;
     }
@@ -292,7 +391,7 @@ public class UnitBrain : MonoBehaviour
     void Face(bool faceRight)
     {
         if (!anim)
-        { // still handle visual flip via SpriteRenderer if no Animator
+        {
             var sr = GetComponentInChildren<SpriteRenderer>();
             if (sr) sr.flipX = faceRight;
             return;
@@ -301,7 +400,7 @@ public class UnitBrain : MonoBehaviour
         if (sr2) sr2.flipX = faceRight;
     }
 
-   public void SetAnim(bool moving, bool dead)
+    public void SetAnim(bool moving, bool dead)
     {
         if (!anim) return;
 
@@ -353,7 +452,7 @@ public class UnitBrain : MonoBehaviour
     {
         if (Time.time < nextAttackTime) return;
 
-        if (!isRanged && armedMelee) return; 
+        if (!isRanged && armedMelee) return;
 
         if (anim && !string.IsNullOrEmpty(attackTrigger)) anim.SetTrigger(attackTrigger);
 
@@ -385,6 +484,7 @@ public class UnitBrain : MonoBehaviour
         var p = Instantiate(projectilePrefab, muzzle.position, Quaternion.identity);
         p.Init(attackDamage, dir * projectileSpeed, isPlayerUnit ? "Enemy" : "Player");
     }
+
     void FireProjectile(Transform t)
     {
         if (!projectilePrefab || !muzzle || !t) return;
@@ -396,6 +496,7 @@ public class UnitBrain : MonoBehaviour
         var p = Instantiate(projectilePrefab, muzzle.position, Quaternion.identity);
         p.Init(attackDamage, dir * projectileSpeed, isPlayerUnit ? "Enemy" : "Player");
     }
+
     public void Anim_MeleeHit()
     {
         if (!armedMelee) return;
@@ -417,7 +518,6 @@ public class UnitBrain : MonoBehaviour
                 hp2.TakeDamage(attackDamage);
             }
         }
-        
     }
 
     public void Anim_Destroy()
